@@ -18,7 +18,7 @@
 | Dense + library/version filter | 0.79 | 0.83 | 0.89 | 0.76 | 0% | 0.02 |
 | Hybrid, our RRF + filter | 0.87 | 0.79 | 0.91 | 0.79 | 0% | 0.02 |
 | Hybrid alpha=0.5 + filter | 0.91 | 0.83 | 0.91 | 0.80 | 0% | 0.02 |
-| Hybrid alpha=0.5 + filter + rerank | 0.92 | 0.89 | 0.98 | 0.84 | 0% | 2.72 |
+| Hybrid alpha=0.5 + filter + rerank | 0.92 | 0.89 | 0.98 | 0.84 | 0% | 2.41 |
 
 ## Negative questions
 

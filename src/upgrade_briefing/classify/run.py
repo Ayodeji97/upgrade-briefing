@@ -25,7 +25,8 @@ def load_labels(path: Path = LABELS_OUT) -> dict[str, str]:
     """item_id -> label ({} if briefing-classify has not been run)."""
     if not path.exists():
         return {}
-    return {d["item_id"]: d["label"] for d in map(json.loads, path.open())}
+    with path.open() as f:
+        return {d["item_id"]: d["label"] for d in map(json.loads, f)}
 
 
 def main() -> None:

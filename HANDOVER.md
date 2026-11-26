@@ -10,7 +10,7 @@ _Last updated: 2026-11-26_
 | 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | ✅ done (30 questions) |
 | 3 | Chunk by section, embed, index in Weaviate with metadata | ✅ done (1133 section chunks, 652 fixed) |
 | 4 | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | ✅ done |
-| 5 | Classify chunks (breaking / deprecated / new / fix) | 🟡 code + eval done; full-corpus labels finishing (see below) |
+| 5 | Classify chunks (breaking / deprecated / new / fix) | ✅ done (2,347 bullets labelled) |
 | 6 ⏭ **next** | Generate the briefing with checked citations | |
 | 7 | CLI over `libs.versions.toml` | |
 | 8 | Full evaluation, Phoenix traces, `android docs search` baseline, cost | |
@@ -136,11 +136,11 @@ Lessons:
 - Test is only 34 bullets, and the prompt was revised once on dev (v2: behaviour change = breaking vs fix).
 - **Groq free tier: 200k tokens/day (rolling) and 8k tokens/min.** One full labelling run used nearly the whole day's budget.
 
-## Open item when this session ended (check first!)
-- If `data/labels.jsonl` does not exist: run `uv run briefing-classify` (resumes from cache; ~200 bullets were left,
-  slowed by the daily token limit), then `DISK_USE_READONLY_PERCENTAGE=99 uv run briefing-index`, then check that
-  `search(..., labels=["breaking"])` returns only breaking chunks, then commit `data/labels.jsonl`.
-- Re-run `uv run briefing-eval-retrieval` to confirm Step 4 numbers are unchanged (chunk text did not change).
+## Full-corpus labels (data/labels.jsonl, committed)
+fix 916, new 733, breaking 388, other 259, deprecated 51. Index rebuilt with `labels`; Step 4 retrieval numbers unchanged.
+Demo: "what breaks when upgrading Room" (room, 2.6.1 -> 2.7.0, hybrid top 5) returns 5 bug fixes without the label filter;
+with `labels=["breaking"]` it returns room-ktx merged into runtime, Kotlin 2.0 required, KMP refactor, renames.
+Re-labelling the corpus costs ~1 day of Groq free-tier tokens; the cache in `data/cache/classify/` avoids that.
 
 ## Next: Step 6 (generate the briefing with checked citations)
 Learning guide Stage 8. Retrieve with library + version filter (+ `labels` filter per briefing section), rerank,
