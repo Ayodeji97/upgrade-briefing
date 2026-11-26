@@ -1,0 +1,9184 @@
+[
+ {
+  "name": "BM25 (raw text)",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.3.0-alpha04",
+     "work@2.1.0-beta01",
+     "room@2.1.0-alpha02",
+     "navigation@2.7.3",
+     "navigation@2.9.0",
+     "paging@3.4.2",
+     "work@2.9.1",
+     "navigation@2.9.0-alpha04",
+     "navigation@2.3.0-alpha04",
+     "lifecycle@2.9.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.03333333333333333,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.4.0-alpha01",
+     "room@2.8.0-rc02",
+     "navigation@2.9.0-alpha07",
+     "room@2.4.0-alpha04",
+     "room@2.4.0",
+     "work@2.7.0-beta01",
+     "room@2.1.0-alpha01",
+     "lifecycle@2.11.0-alpha01",
+     "room@2.7.0-alpha01",
+     "navigation@2.7.7"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.9.0-alpha03",
+     "lifecycle@2.9.0-beta01",
+     "navigation@2.1.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.9.0-rc01",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.7.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha05",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha01",
+     "room@2.5.0-alpha03",
+     "lifecycle@2.6.0",
+     "lifecycle@2.4.1",
+     "lifecycle@2.7.0"
+    ],
+    "r5": 0.75,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.1.0-alpha02",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "room@2.6.0-alpha03",
+     "navigation@2.1.0-alpha06",
+     "room@2.5.0~2",
+     "room@2.1.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.5.0-alpha02",
+     "room@2.3.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.4.0",
+     "room@2.4.0-alpha04",
+     "work@1.0.0-beta02",
+     "room@2.3.0-beta02",
+     "work@1.0.0-alpha03",
+     "room@2.2.6",
+     "room@1.1.0-alpha01",
+     "room@2.3.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.4.0-alpha02",
+     "lifecycle@2.4.0",
+     "work@2.9.1",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.2.0",
+     "navigation@2.1.0-alpha06",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@1.1.0",
+     "work@2.4.0-alpha01",
+     "lifecycle@2.3.0-beta01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.03333333333333333,
+    "wrong10": 0.4
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0",
+     "work@2.10.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.7.0",
+     "room@2.1.0-alpha01",
+     "work@1.0.0-alpha02",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.3.0",
+     "work@2.4.0-alpha01",
+     "lifecycle@2.9.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.4
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "room@2.8.0-rc02",
+     "paging@3.4.0-alpha03",
+     "lifecycle@2.10.0-alpha02",
+     "navigation@2.10.0-alpha01",
+     "lifecycle@2.9.0-rc01",
+     "work@2.11.0",
+     "navigation@2.10.2",
+     "work@2.11.0-alpha01",
+     "lifecycle@2.5.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.9.0-alpha08",
+     "lifecycle@2.11.0",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.5.0",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.8.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 6.364322185516357
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "room@2.8.2",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.7.7",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.8.4",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.9.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.7.5",
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.7.3",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.1.0-alpha06",
+     "work@2.5.0-alpha01",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.10.0-alpha06"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.4.0-alpha04",
+     "paging@3.4.2",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.1",
+     "paging@3.3.6",
+     "paging@3.1.0-alpha01",
+     "paging@3.4.0-beta01",
+     "paging@3.3.4",
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-alpha02"
+    ],
+    "r5": 0.0,
+    "r10": 0.5,
+    "rr": 0.1111111111111111,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@2.11.0",
+     "work@2.5.0-alpha03",
+     "work@2.10.5",
+     "work@2.5.0-beta01",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha05",
+     "lifecycle@2.9.0-alpha07",
+     "work@2.11.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "navigation@2.1.0-alpha06",
+     "work@2.12.0",
+     "work@1.0.0-alpha11",
+     "lifecycle@2.10.0",
+     "work@2.11.0-alpha01",
+     "work@2.7.0-beta01",
+     "work@1.0.0-alpha10",
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "paging@1.0.0-alpha13",
+     "lifecycle@2.3.0",
+     "navigation@2.8.0",
+     "navigation@2.1.0-alpha06",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.8.0-beta01",
+     "navigation@2.4.0-alpha08"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.5.1",
+     "paging@3.2.0-alpha01",
+     "paging@3.2.0-alpha03",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha10",
+     "work@2.7.0-alpha04",
+     "room@2.4.0-alpha04",
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0-alpha03",
+     "lifecycle@2.11.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.3
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "work@2.1.0-beta01",
+     "paging@3.0.0-alpha10",
+     "lifecycle@2.9.0-alpha08",
+     "room@2.7.0-beta01",
+     "room@2.7.0-alpha08",
+     "navigation@2.4.0-alpha01",
+     "paging@3.0.0-alpha09",
+     "navigation@2.1.0-alpha06",
+     "work@2.4.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "lifecycle@2.9.0-rc01",
+     "room@2.7.0-alpha13",
+     "work@2.3.1",
+     "work@2.8.0-alpha03",
+     "work@2.10.0",
+     "work@1.0.0",
+     "room@2.7.0-alpha01",
+     "work@1.0.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.3
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.1.0-alpha03",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha11",
+     "room@2.7.0-alpha11",
+     "paging@3.0.0-alpha13",
+     "paging@3.2.0-alpha03",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 6.379983901977539
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "lifecycle@2.9.0-alpha02",
+     "navigation@2.9.0-alpha05",
+     "lifecycle@2.9.0-rc01",
+     "room@2.8.5",
+     "lifecycle@2.6.0-alpha02",
+     "navigation@2.9.5",
+     "room@2.8.2",
+     "room@2.8.0-rc02",
+     "navigation@2.9.0-alpha08"
+    ],
+    "empty": false,
+    "top_score": 5.42561149597168
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@1.0.0-alpha04",
+     "work@2.1.0-alpha02",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha02",
+     "work@2.1.0",
+     "work@1.0.0-alpha05",
+     "work@2.10.0-alpha03",
+     "work@2.4.0-alpha02",
+     "work@2.1.0-beta01"
+    ],
+    "empty": false,
+    "top_score": 5.039531230926514
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "work@1.0.0-alpha11",
+     "navigation@2.1.0-alpha06",
+     "navigation@1.0.0-alpha10",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha13",
+     "navigation@1.0.0-alpha06",
+     "work@1.0.0-alpha09",
+     "lifecycle@2.1.0-alpha04",
+     "work@1.0.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 5.607903480529785
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.4",
+     "room@2.7.2",
+     "lifecycle@2.2.0",
+     "navigation@2.5.0-alpha04",
+     "work@1.0.0-alpha01",
+     "work@2.1.0-beta01",
+     "navigation@1.0.0-alpha08~2",
+     "lifecycle@2.4.0",
+     "work@1.0.0-alpha12",
+     "lifecycle@2.2.0-alpha04"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.10.0-alpha04",
+     "work@2.10.0-alpha03",
+     "work@2.11.0-beta01",
+     "work@2.9.1",
+     "work@2.4.0",
+     "work@2.4.0-beta01",
+     "work@2.10.5",
+     "work@2.3.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-rc03",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0",
+     "navigation@1.0.0-alpha10",
+     "navigation@1.0.0-alpha07",
+     "navigation@2.2.0-beta01",
+     "navigation@1.0.0-beta02"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.08333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.9.0-alpha03",
+     "lifecycle@2.8.3",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0-alpha01"
+    ],
+    "r5": 0.6666666666666666,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@1.0.0-beta02",
+     "work@2.9.0",
+     "work@2.9.1",
+     "work@1.0.0-alpha08",
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.10.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@2.12.0-beta01"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.2.0-beta01",
+     "navigation@2.2.0-alpha02",
+     "navigation@2.8.3",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.1.0-alpha05"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha16",
+     "paging@1.0.0-alpha19",
+     "paging@3.4.1",
+     "paging@1.0.0-alpha20",
+     "paging@3.2.0-alpha02",
+     "paging@3.3.0",
+     "paging@3.4.2",
+     "paging@1.0.0-alpha09",
+     "paging@3.3.0-alpha02"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.3333333333333333,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.001980417058803141
+ },
+ {
+  "name": "BM25 (camelCase split)",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.1.0-alpha01",
+     "room@2.7.0-rc01",
+     "room@2.7.2",
+     "room@2.3.0-alpha04",
+     "room@2.1.0-alpha02",
+     "room@2.7.0",
+     "work@2.1.0-beta01",
+     "paging@3.4.2",
+     "navigation@2.9.0-alpha09",
+     "lifecycle@2.9.2"
+    ],
+    "r5": 0.0,
+    "r10": 0.5,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.4.0-alpha01",
+     "room@2.8.0-rc02",
+     "room@2.7.0-rc01",
+     "room@2.7.2",
+     "navigation@2.9.0-alpha07",
+     "room@2.4.0-alpha04",
+     "room@2.1.0-alpha01",
+     "room@2.4.0",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha09"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.9.0-alpha03",
+     "navigation@2.1.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.9.0-beta01",
+     "lifecycle@2.9.0-rc01",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.7.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha05",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "lifecycle@2.6.0",
+     "room@2.5.0-alpha01",
+     "room@2.5.0-alpha03",
+     "room@2.6.0",
+     "lifecycle@2.7.0"
+    ],
+    "r5": 0.75,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.4.0-alpha05",
+     "room@2.6.0-alpha03",
+     "room@2.4.0-beta02",
+     "lifecycle@2.1.0-alpha02",
+     "room@2.3.0-alpha03",
+     "navigation@2.1.0-alpha06",
+     "room@2.5.0~2",
+     "room@2.6.0",
+     "room@2.4.0-alpha04",
+     "room@2.5.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.4.0",
+     "room@2.4.0-alpha04",
+     "room@2.3.0-beta02",
+     "work@1.0.0-beta02",
+     "room@2.4.0-alpha02",
+     "work@1.0.0-alpha03",
+     "room@2.0.0-beta01",
+     "room@2.7.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.4.0",
+     "room@2.7.2",
+     "navigation@2.6.0-alpha05",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.4.0-alpha08",
+     "navigation@2.4.0-alpha09",
+     "lifecycle@2.2.0-rc03"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.6.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.7.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.3.0",
+     "lifecycle@2.9.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "room@2.8.0-rc02",
+     "paging@3.4.0-alpha03",
+     "lifecycle@2.10.0-alpha02",
+     "work@2.11.0",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.9.0-rc01",
+     "work@2.11.0-alpha01",
+     "navigation@2.10.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.9.0-alpha08",
+     "lifecycle@2.11.0",
+     "lifecycle@1.1.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.5.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.11.0-alpha03",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.8.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 7.040999412536621
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "room@2.8.2",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.7.7",
+     "navigation@2.8.4",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.9.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.7.5",
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.1.0-alpha06",
+     "navigation@2.7.3",
+     "work@2.5.0-alpha01",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.3.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0",
+     "room@2.4.0-alpha04",
+     "paging@3.4.0-beta01",
+     "paging@3.3.5",
+     "paging@3.3.0-alpha01",
+     "paging@3.3.0",
+     "paging@3.4.2",
+     "lifecycle@2.9.3"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@2.11.0",
+     "work@2.10.5",
+     "work@2.5.0-beta01",
+     "work@2.5.0-alpha03",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha13",
+     "work@2.11.0-beta01",
+     "work@1.0.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.12.0",
+     "work@2.11.0-alpha01",
+     "work@1.0.0-alpha11",
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "work@2.12.0-alpha01",
+     "navigation@2.1.0-alpha06",
+     "work@2.7.0-beta01",
+     "work@1.0.0-alpha10"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "paging@1.0.0-alpha13",
+     "navigation@2.6.0",
+     "lifecycle@2.3.0",
+     "navigation@1.0.0-rc02",
+     "navigation@2.8.0",
+     "navigation@1.0.0-beta02",
+     "navigation@1.0.0-alpha09"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.5.1",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha10",
+     "paging@3.2.0-alpha03",
+     "room@2.4.0-alpha04",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-beta02",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha07",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha04",
+     "paging@3.1.0-alpha04",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0",
+     "paging@3.3.1",
+     "paging@3.2.0-alpha04",
+     "paging@3.2.1",
+     "paging@3.5.0",
+     "paging@3.0.0-alpha09"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.5.0-alpha03",
+     "work@2.8.0",
+     "work@2.8.0-alpha01",
+     "work@2.9.0",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-beta01",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.1.0-alpha03",
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha13",
+     "paging@3.2.0-alpha05",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha02",
+     "room@2.4.0-alpha04",
+     "room@2.6.1",
+     "paging@3.0.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 7.968834400177002
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "lifecycle@2.9.0-alpha02",
+     "navigation@2.9.0-alpha05",
+     "lifecycle@2.9.0-rc01",
+     "room@2.8.5",
+     "navigation@2.9.5",
+     "lifecycle@2.6.0-alpha02",
+     "room@2.8.2",
+     "room@2.8.0-rc02",
+     "navigation@2.9.0-alpha08"
+    ],
+    "empty": false,
+    "top_score": 5.401360988616943
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@2.1.0-alpha02",
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha05",
+     "work@2.4.0-alpha01",
+     "work@2.8.0-alpha03",
+     "work@2.4.0-alpha02",
+     "work@2.8.0"
+    ],
+    "empty": false,
+    "top_score": 9.32484245300293
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.1.0-alpha06",
+     "work@1.0.0-alpha11",
+     "navigation@1.0.0-alpha10",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha13",
+     "navigation@2.4.0",
+     "navigation@1.0.0-alpha06",
+     "work@1.0.0-alpha09",
+     "work@1.0.0-alpha10"
+    ],
+    "empty": false,
+    "top_score": 5.687458515167236
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.0-alpha03",
+     "room@2.7.2",
+     "lifecycle@2.8.4",
+     "lifecycle@2.8.0",
+     "lifecycle@2.2.0-alpha04",
+     "navigation@2.5.0-alpha04",
+     "lifecycle@2.2.0",
+     "work@1.0.0-alpha01",
+     "work@2.1.0-beta01",
+     "navigation@1.0.0-alpha08~2"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.7.0",
+     "work@2.10.0-alpha03",
+     "work@2.3.1",
+     "work@2.10.0-alpha04",
+     "work@2.4.0",
+     "work@2.4.0-beta01",
+     "work@2.11.0-beta01",
+     "work@2.9.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.8",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.2.0-rc03",
+     "navigation@2.3.0",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.04,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.10.0",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.8.7",
+     "lifecycle@2.11.0-alpha01",
+     "navigation@2.8.0-alpha08"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.3333333333333333,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@2.8.0-alpha04",
+     "work@2.9.0",
+     "work@1.0.0-beta02",
+     "work@1.0.0-alpha11",
+     "work@2.9.1",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha08",
+     "work@2.4.0-alpha01",
+     "work@2.1.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07692307692307693,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.8.8",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.2.0-beta01",
+     "navigation@2.8.3",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.9.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha16",
+     "paging@1.0.0-alpha20",
+     "paging@1.0.0-alpha19",
+     "paging@3.4.1",
+     "paging@3.2.0-alpha02",
+     "paging@3.0.0",
+     "paging@3.4.2",
+     "paging@3.3.0",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.3333333333333333,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.0010762920137494802
+ },
+ {
+  "name": "Dense, fixed 200-word chunks",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@1.1.1-rc01",
+     "room@2.4.0-rc01",
+     "room@2.4.0-alpha03",
+     "room@2.7.0-alpha13",
+     "work@2.1.0",
+     "room@2.2.0-beta01",
+     "room@2.7.0-rc02",
+     "room@2.2.6",
+     "room@2.2.3",
+     "room@2.1.0-alpha06"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07692307692307693,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@1.1.1-rc01",
+     "room@2.7.0-alpha13",
+     "room@2.4.0-rc01",
+     "room@2.4.0-alpha03",
+     "room@2.8.0-rc02",
+     "room@2.7.0",
+     "room@2.1.0-alpha01",
+     "room@2.5.0-alpha02",
+     "room@2.2.0-rc01",
+     "room@2.4.0"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.2,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-beta01",
+     "lifecycle@2.8.2",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.6.1",
+     "navigation@2.2.0-rc02",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.7.0-alpha03",
+     "lifecycle@2.3.0-alpha06",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.045454545454545456,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "paging@3.3.0-alpha04",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-beta01",
+     "lifecycle@2.9.0-beta01",
+     "room@2.5.0~2",
+     "lifecycle@2.2.0",
+     "lifecycle@2.8.0-alpha04"
+    ],
+    "r5": 0.75,
+    "r10": 0.75,
+    "rr": 1.0,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.5.0-alpha02",
+     "room@2.3.0-alpha01",
+     "room@2.4.0-alpha04",
+     "room@2.7.0-alpha04",
+     "room@2.3.0-alpha04",
+     "room@2.2.6",
+     "room@1.1.0-alpha01",
+     "room@2.1.0-alpha02",
+     "room@2.7.0-alpha08"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.4.0-rc01",
+     "room@2.7.0",
+     "room@2.7.0-alpha13",
+     "room@2.7.0-alpha01",
+     "room@2.3.0-alpha02",
+     "room@2.3.0-beta02",
+     "room@2.1.0-alpha05",
+     "room@2.6.0",
+     "room@2.8.0",
+     "room@2.7.0-alpha08"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.2.0-rc03",
+     "work@2.7.0-alpha01",
+     "navigation@2.1.0-alpha06",
+     "lifecycle@2.4.0-alpha01",
+     "lifecycle@2.4.0",
+     "work@2.6.0-alpha01",
+     "navigation@2.6.0",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@1.1.0",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.8.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "navigation@2.10.0-rc01",
+     "room@2.8.0-rc02",
+     "work@2.11.0-alpha01",
+     "navigation@2.10.2",
+     "lifecycle@2.8.0",
+     "work@1.0.0-beta02",
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@1.1.0",
+     "room@2.5.0-beta01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@1.1.0",
+     "lifecycle@2.4.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.6.0-alpha05",
+     "navigation@2.1.0-rc01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.8.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 0.7430572509765625
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.0-rc01",
+     "navigation@1.0.0-rc01",
+     "navigation@2.0.0-rc02",
+     "navigation@2.5.2",
+     "navigation@2.2.0-rc02",
+     "navigation@2.1.0-alpha01",
+     "navigation@1.0.0-alpha09",
+     "navigation@2.9.0-alpha07",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.6.0-alpha01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.5.2",
+     "navigation@2.1.0-alpha01",
+     "navigation@1.0.0-alpha06",
+     "navigation@2.6.0-alpha01",
+     "navigation@1.0.0-rc01",
+     "navigation@2.3.2",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.0.0-rc02",
+     "navigation@2.6.0",
+     "navigation@2.2.0-rc02"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.1111111111111111,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@1.0.0-rc01~2",
+     "paging@3.4.0-alpha01",
+     "room@2.4.0-alpha04",
+     "paging@3.4.1",
+     "paging@3.2.0-beta01",
+     "paging@3.0.0-alpha01",
+     "paging@3.3.0-alpha02",
+     "paging@3.1.0-alpha02",
+     "paging@3.3.0-alpha01",
+     "paging@3.1.0-alpha01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.09090909090909091,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0",
+     "work@1.0.1",
+     "work@1.0.0-rc02",
+     "work@1.0.0-beta01",
+     "work@2.1.0-beta01",
+     "work@2.12.0-alpha01",
+     "work@1.0.0-rc01",
+     "work@1.0.0-beta03",
+     "work@2.1.0-alpha03",
+     "work@2.7.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@1.0.1",
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@1.0.0",
+     "work@2.2.0",
+     "work@1.0.0-beta02",
+     "work@1.0.0-beta03",
+     "work@2.1.0-alpha03",
+     "work@2.7.0-alpha05",
+     "work@2.12.0"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.1,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-rc02",
+     "navigation@2.4.0-alpha02",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.3.0-alpha04",
+     "navigation@2.4.0-beta01",
+     "navigation@2.8.1",
+     "navigation@1.0.0-beta02",
+     "navigation@2.4.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.0.0-alpha13",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha03",
+     "room@2.4.0-alpha04",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha10",
+     "paging@3.2.0-alpha05",
+     "paging@1.0.0-alpha07",
+     "paging@3.1.0-alpha02",
+     "paging@3.0.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha09",
+     "paging@3.3.1",
+     "paging@3.1.0-alpha04",
+     "paging@3.0.0-alpha02",
+     "paging@3.5.0-beta01",
+     "paging@3.0.0-beta03",
+     "paging@3.1.0",
+     "lifecycle@2.8.0",
+     "paging@3.0.0-alpha12"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.1",
+     "work@2.3.0-alpha03",
+     "work@2.3.0-beta02",
+     "work@2.7.0-alpha01",
+     "work@2.10.0-alpha03",
+     "work@2.7.0",
+     "work@2.1.0-alpha03",
+     "work@2.4.0-alpha01",
+     "work@1.0.0-rc01",
+     "work@2.4.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@1.0.0-alpha07",
+     "paging@3.2.0-alpha05",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha03",
+     "paging@3.2.0-alpha06",
+     "paging@2.1.2",
+     "paging@3.1.0",
+     "paging@3.0.0",
+     "paging@3.0.0-alpha04",
+     "paging@3.0.0-alpha13"
+    ],
+    "empty": false,
+    "top_score": 0.7419320344924927
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@1.1.1-rc01",
+     "room@2.4.0-alpha03",
+     "room@2.2.3",
+     "room@2.7.0-alpha13",
+     "room@2.2.6",
+     "room@2.4.0-rc01",
+     "room@2.7.0-rc02",
+     "room@2.2.0-beta01",
+     "room@2.2.0-rc01",
+     "room@2.5.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.7035899758338928
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@2.1.0-alpha03",
+     "work@1.0.0-rc01",
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha11",
+     "work@1.0.0",
+     "work@1.0.1",
+     "work@1.0.0-alpha03",
+     "work@2.3.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 0.7802634835243225
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-beta02",
+     "work@1.0.0-alpha11",
+     "navigation@1.0.0-alpha09",
+     "lifecycle@1.1.0",
+     "navigation@1.0.0-rc02",
+     "navigation@1.0.0-alpha04",
+     "paging@2.0.0-beta01",
+     "navigation@2.1.0-alpha01",
+     "lifecycle@2.5.0-rc02",
+     "work@1.0.0-beta03"
+    ],
+    "empty": false,
+    "top_score": 0.6405659914016724
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.7.0-alpha03",
+     "lifecycle@2.7.0",
+     "lifecycle@2.3.0-alpha06",
+     "lifecycle@2.3.0-rc01",
+     "work@2.7.1",
+     "lifecycle@2.8.4",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.2.0-alpha05",
+     "lifecycle@2.8.0",
+     "lifecycle@2.3.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.3.1",
+     "work@2.7.0",
+     "work@2.3.0-alpha03",
+     "work@2.4.0-beta01",
+     "work@2.4.0-alpha01",
+     "work@2.10.0-alpha03",
+     "work@2.4.0",
+     "work@2.5.0-beta02",
+     "work@2.9.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha07",
+     "navigation@2.4.0-beta02",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.6.0-alpha09",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.2.0-rc03",
+     "navigation@2.4.0-rc01",
+     "navigation@2.4.2",
+     "navigation@2.3.0-alpha06"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.09090909090909091,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.9.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.3",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.10.0",
+     "lifecycle@2.9.0-alpha02"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha06",
+     "work@2.1.0-alpha02",
+     "work@1.0.0-alpha03",
+     "work@2.9.0",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha01",
+     "work@2.3.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.4.0-beta02",
+     "navigation@2.2.0-rc03",
+     "navigation@2.8.8",
+     "navigation@2.4.0-rc01",
+     "navigation@2.3.2",
+     "navigation@2.2.0-alpha02",
+     "navigation@2.8.0-rc01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-rc01~2",
+     "paging@2.1.2",
+     "paging@3.3.0-alpha02",
+     "paging@3.0.0-alpha01",
+     "room@2.4.0-alpha04",
+     "paging@1.0.0-alpha19",
+     "paging@3.4.1",
+     "paging@3.0.0",
+     "paging@3.2.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.01953383395448327
+ },
+ {
+  "name": "Dense, no query prefix",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.2.6",
+     "room@1.1.1-rc01",
+     "room@2.2.3",
+     "room@2.7.0-alpha13",
+     "room@2.0.0-beta01",
+     "room@2.2.0-beta01",
+     "room@2.7.0-alpha06",
+     "room@2.8.0-rc01",
+     "room@2.7.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.03125,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.8.0-rc02",
+     "room@2.2.6",
+     "room@2.4.0-alpha03",
+     "room@2.2.3",
+     "room@2.7.0-alpha05",
+     "room@2.4.0-alpha02",
+     "room@2.0.0-beta01",
+     "room@2.1.0-alpha02",
+     "room@2.7.0-alpha06"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.0.0",
+     "lifecycle@2.3.0-alpha07",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.2.0-alpha05",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.7.0-rc01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "lifecycle@2.8.0-alpha02",
+     "room@2.5.0-alpha02",
+     "lifecycle@2.8.0",
+     "room@2.5.0~2",
+     "lifecycle@2.3.0-beta01",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.7.0-alpha04",
+     "room@2.8.0-rc01",
+     "room@2.6.0",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha02",
+     "room@2.7.0-alpha06",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "work@1.0.0-alpha03",
+     "room@2.4.0-rc01",
+     "room@2.7.0",
+     "room@2.7.0-alpha06",
+     "room@2.8.0",
+     "room@2.5.0-alpha01",
+     "room@2.8.0-rc01",
+     "room@2.5.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.4.0-alpha01",
+     "paging@3.0.0-alpha09",
+     "lifecycle@2.4.0",
+     "navigation@2.1.0-alpha03",
+     "work@2.10.5"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.4.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.6.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.2.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.4.0-alpha02",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "paging@3.4.0-alpha03",
+     "work@2.11.0",
+     "room@2.8.0-rc02",
+     "lifecycle@2.9.3",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.3.0-alpha02"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.4
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.0.0",
+     "lifecycle@1.1.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.8.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 0.8342193365097046
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.10.2",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.2.2",
+     "navigation@2.8.4",
+     "navigation@2.5.2",
+     "navigation@2.8.5",
+     "navigation@2.9.0-alpha04",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.9.3",
+     "navigation@2.8.0-rc01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.7.5",
+     "navigation@2.5.2",
+     "navigation@2.6.0-alpha08",
+     "navigation@2.6.0-rc02",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.10.0-alpha06"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.3
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.3.6",
+     "paging@3.4.2",
+     "paging@3.5.3",
+     "paging@3.5.0-rc01",
+     "paging@3.4.0-alpha03",
+     "paging@3.0.0-alpha05",
+     "paging@3.0.0-alpha01",
+     "paging@3.0.0-alpha10",
+     "paging@3.3.0-alpha04",
+     "paging@3.0.0-alpha11"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.2,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-rc01",
+     "work@2.12.0-alpha01",
+     "work@2.10.4",
+     "work@2.11.0-beta01",
+     "work@2.12.0-rc01",
+     "work@1.0.0-beta02",
+     "work@2.10.5",
+     "work@2.8.0-beta01",
+     "work@1.0.0-beta05",
+     "work@2.5.0-rc01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01",
+     "work@2.9.0-rc01",
+     "work@2.10.0-alpha03",
+     "work@2.12.0",
+     "work@1.0.0-beta05",
+     "work@2.8.0-rc01",
+     "work@2.12.0-rc01",
+     "work@2.7.0-alpha02"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.8.0-beta01",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@1.0.0-rc02",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.6.0",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.4.0-alpha02",
+     "navigation@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha07",
+     "paging@3.0.1",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-beta03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha04",
+     "lifecycle@2.6.0-alpha02",
+     "paging@3.0.0-alpha03",
+     "lifecycle@2.9.0-alpha07",
+     "paging@3.3.1",
+     "paging@3.0.0-alpha13",
+     "lifecycle@2.8.4"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.3
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.4.0",
+     "work@2.7.0-alpha04",
+     "work@2.10.5",
+     "work@2.8.0-alpha03",
+     "work@2.5.0-alpha03",
+     "work@2.10.0-alpha03",
+     "work@2.8.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "paging@2.1.1",
+     "paging@3.0.0-alpha07",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha04",
+     "paging@3.0.1",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha12",
+     "paging@3.0.0-beta03",
+     "paging@3.0.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 0.8153883814811707
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.2.6",
+     "room@2.2.5",
+     "room@2.2.3",
+     "room@2.0.0-beta01",
+     "room@2.8.0-beta01",
+     "room@2.8.0-rc01",
+     "room@2.1.0-alpha05",
+     "room@2.7.0-alpha13",
+     "room@2.7.0-alpha06"
+    ],
+    "empty": false,
+    "top_score": 0.7506951093673706
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.4.0-alpha02",
+     "work@2.8.0-alpha03",
+     "work@2.1.0-alpha03",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha05",
+     "work@2.8.0",
+     "work@2.9.0-rc01",
+     "work@1.0.0-alpha06"
+    ],
+    "empty": false,
+    "top_score": 0.8484928607940674
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha07",
+     "lifecycle@2.0.0",
+     "navigation@1.0.0-alpha08~2",
+     "lifecycle@2.9.3",
+     "navigation@2.2.2",
+     "navigation@2.4.0",
+     "navigation@2.3.0-beta01",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.3.0-beta01",
+     "navigation@2.4.0-alpha01"
+    ],
+    "empty": false,
+    "top_score": 0.6919457912445068
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-alpha05",
+     "work@2.8.0-alpha01",
+     "work@2.7.1",
+     "lifecycle@2.7.0",
+     "lifecycle@2.2.0-rc03",
+     "lifecycle@2.8.4",
+     "work@2.8.0",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.3.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0625,
+    "wrong10": 0.3
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.10.5",
+     "work@2.3.0-beta02",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.4.0-beta01",
+     "work@2.3.1",
+     "work@2.4.0",
+     "work@2.9.1",
+     "work@2.7.0",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.3.0-alpha06",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.6.0-alpha09",
+     "navigation@2.4.0-rc01",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.1.0-alpha05",
+     "navigation@2.8.1"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.1,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.8.6",
+     "lifecycle@2.10.0-alpha03",
+     "lifecycle@2.8.0",
+     "lifecycle@2.12.0-alpha03",
+     "lifecycle@2.8.3"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.1.0-alpha02",
+     "work@2.9.0-alpha01",
+     "work@2.8.0",
+     "work@2.4.0-alpha02",
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha07",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha01",
+     "work@2.5.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.2.0-beta01",
+     "navigation@2.8.8",
+     "navigation@1.0.0-beta02",
+     "navigation@2.3.0-alpha06",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.1.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.5.3",
+     "paging@3.3.6",
+     "paging@1.0.0-alpha08",
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha19",
+     "paging@3.4.2",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha05",
+     "paging@3.0.0-alpha11"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 0.25,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.017754291999153793
+ },
+ {
+  "name": "Dense",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.2.6",
+     "room@1.1.1-rc01",
+     "room@2.1.0",
+     "room@2.2.3",
+     "room@2.2.0-beta01",
+     "room@2.7.0-alpha05",
+     "room@2.1.0-alpha01",
+     "room@2.5.0-beta01",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.058823529411764705,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.7.0-alpha13",
+     "room@2.8.0-rc02",
+     "room@2.7.0",
+     "room@2.2.6",
+     "work@2.3.0-beta02",
+     "room@2.2.3",
+     "room@2.2.0",
+     "room@2.4.0-alpha02",
+     "room@2.1.0-alpha02"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.3.0-alpha06",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.3.0-alpha07",
+     "lifecycle@2.2.0-alpha01",
+     "lifecycle@2.5.0",
+     "lifecycle@2.2.0-beta01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.041666666666666664,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "lifecycle@2.9.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.3.0-beta01",
+     "lifecycle@2.2.0",
+     "room@2.5.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-beta02",
+     "room@2.4.0-alpha05",
+     "room@2.7.0-alpha06",
+     "room@2.7.0-alpha04",
+     "room@2.7.0-alpha08",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha02",
+     "room@2.3.0",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "work@1.0.0-alpha03",
+     "room@2.7.0",
+     "room@2.4.0-alpha03",
+     "room@2.8.0",
+     "room@2.4.0-rc01",
+     "room@2.3.0-beta02",
+     "room@2.5.0-alpha01",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "navigation@1.0.0-alpha08~2",
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-alpha01",
+     "navigation@2.1.0-alpha03",
+     "work@2.6.0",
+     "work@2.6.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@1.1.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.3.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "paging@3.4.0-alpha03",
+     "work@2.11.0",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.11.0-beta01",
+     "room@2.8.0-rc02",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.3.0-beta01",
+     "navigation@2.10.0-rc01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@1.1.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.4.0",
+     "lifecycle@2.0.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.11.0"
+    ],
+    "empty": false,
+    "top_score": 0.7709044814109802
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha07",
+     "navigation@2.10.2",
+     "navigation@2.9.0-alpha04",
+     "navigation@2.2.2",
+     "navigation@2.8.0-rc01",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.8.5",
+     "navigation@2.5.2",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.7.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.5.2",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.7.5",
+     "navigation@2.3.0",
+     "navigation@2.3.0-alpha05",
+     "navigation@2.2.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.2",
+     "paging@3.5.0-rc01",
+     "paging@3.0.0-alpha01",
+     "paging@3.0.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.0.0-alpha10",
+     "paging@3.4.1",
+     "paging@3.3.6",
+     "paging@3.4.0",
+     "paging@3.3.0-alpha04"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.2,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-beta02",
+     "work@2.12.0-alpha01",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-beta05",
+     "work@2.9.0-rc01",
+     "work@2.5.0-rc01",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-beta03",
+     "work@2.5.0-beta02"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01",
+     "work@2.12.0",
+     "work@2.7.0",
+     "work@2.10.0-alpha03",
+     "work@2.8.0-rc01",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha02",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.8.0-beta01",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha02",
+     "navigation@1.0.0-rc02",
+     "navigation@2.6.0",
+     "navigation@2.7.4"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha13",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-beta03",
+     "paging@3.0.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha02",
+     "lifecycle@2.6.0-alpha02",
+     "paging@3.0.0-alpha04",
+     "lifecycle@2.9.0-alpha07",
+     "lifecycle@2.8.4",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha13",
+     "lifecycle@2.4.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.4
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.7.0",
+     "work@2.9.1",
+     "work@2.7.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha11",
+     "paging@3.2.0-alpha05",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha04",
+     "paging@3.2.0-alpha06",
+     "paging@3.0.0-alpha12",
+     "paging@1.0.0-alpha07",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07"
+    ],
+    "empty": false,
+    "top_score": 0.764938235282898
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@2.2.5",
+     "room@2.7.0-rc02",
+     "room@2.2.3",
+     "room@2.2.6",
+     "room@2.1.0-alpha05",
+     "room@2.1.0",
+     "room@2.2.0-beta01",
+     "room@2.4.0-alpha02",
+     "room@2.8.0-beta01",
+     "room@2.1.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.7143518924713135
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.8.0-alpha03",
+     "work@2.1.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha11",
+     "work@2.4.0-alpha02",
+     "work@1.0.0-alpha05",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@1.0.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 0.8028860688209534
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@1.0.0-alpha07",
+     "lifecycle@2.3.0-beta01",
+     "navigation@2.2.2",
+     "navigation@2.1.0-alpha01",
+     "navigation@2.3.0-beta01",
+     "navigation@2.4.0",
+     "navigation@1.0.0-alpha03",
+     "navigation@1.0.0-alpha04",
+     "lifecycle@1.1.0"
+    ],
+    "empty": false,
+    "top_score": 0.6617743372917175
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-alpha05",
+     "work@2.8.0-alpha01",
+     "work@2.7.1",
+     "lifecycle@2.7.0",
+     "lifecycle@2.8.4",
+     "lifecycle@2.3.0",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.7.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07692307692307693,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.3.0-beta02",
+     "work@2.7.0",
+     "work@2.3.1",
+     "work@2.7.0-alpha04",
+     "work@2.9.1",
+     "work@2.4.0-beta01",
+     "work@2.10.5",
+     "work@2.4.0",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.3.0-alpha06",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.6.0-alpha09",
+     "navigation@2.4.0-beta02",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.2.0-beta01",
+     "navigation@2.4.0-rc01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07142857142857142,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.8.6",
+     "lifecycle@2.8.0",
+     "lifecycle@2.12.0-alpha03",
+     "lifecycle@2.10.0-alpha03",
+     "lifecycle@2.9.0-beta01"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.1.0-alpha02",
+     "work@2.9.0-alpha01",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha04",
+     "work@2.10.0-alpha01",
+     "work@2.4.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@1.0.0-beta02",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.3.0-alpha05"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha08",
+     "paging@1.0.0-alpha19",
+     "paging@3.2.0-alpha01",
+     "paging@3.4.2",
+     "paging@1.0.0-alpha16",
+     "paging@1.0.0-alpha09",
+     "paging@3.0.0-alpha01",
+     "paging@3.5.0-rc01",
+     "paging@3.0.0"
+    ],
+    "r5": 0.6666666666666666,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.01892379205673933
+ },
+ {
+  "name": "Hybrid, our RRF",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.2",
+     "room@2.7.0",
+     "room@2.1.0-alpha02",
+     "room@2.4.0-rc01",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha08",
+     "room@2.8.0",
+     "room@2.1.0-alpha01",
+     "room@2.7.0-rc02",
+     "room@2.7.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.4.0",
+     "room@2.7.0",
+     "room@2.7.0-alpha06",
+     "room@2.1.0-alpha01",
+     "room@2.7.2",
+     "room@2.8.0",
+     "room@2.1.0-alpha02",
+     "room@2.5.0-alpha01",
+     "room@2.7.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.9.0-alpha03",
+     "lifecycle@2.8.3",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.8.2",
+     "lifecycle@2.7.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha01",
+     "lifecycle@2.4.0-alpha03",
+     "lifecycle@2.8.3",
+     "lifecycle@2.6.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.7.0-alpha04",
+     "room@2.5.0-alpha02",
+     "room@2.6.0",
+     "room@2.1.0-alpha01",
+     "room@2.4.0",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "work@1.0.0-alpha03",
+     "room@2.7.0",
+     "room@2.3.0-beta02",
+     "room@2.4.0-alpha03",
+     "room@2.4.0-alpha04",
+     "room@2.4.0-rc01",
+     "work@1.0.0-beta02",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "work@2.7.0-alpha01",
+     "lifecycle@2.2.0-rc03",
+     "lifecycle@2.4.0",
+     "work@2.7.0-alpha04",
+     "navigation@1.0.0-alpha08~2",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.2.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.6.0",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.3.0",
+     "lifecycle@2.1.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "paging@3.4.0-alpha03",
+     "room@2.8.0-rc02",
+     "work@2.11.0",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.5.0-alpha05",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@1.1.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.11.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.4.0",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.03200204813108039
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.8.4",
+     "navigation@2.8.0-rc01",
+     "navigation@2.9.0-alpha05",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.8.5",
+     "navigation@2.8.0-beta05",
+     "navigation@2.9.8"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.7.5",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.10.0-alpha06",
+     "navigation@2.3.0-alpha04",
+     "navigation@2.1.0-alpha06",
+     "navigation@2.6.0-alpha06"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.2",
+     "paging@3.4.0",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.1",
+     "paging@3.5.0-rc01",
+     "paging@3.4.0-alpha03",
+     "paging@3.3.6",
+     "paging@3.0.0",
+     "paging@3.0.0-alpha01",
+     "paging@3.6.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha12",
+     "work@2.9.0-rc01",
+     "work@2.8.0-beta02",
+     "work@2.10.4",
+     "work@2.11.0-beta01",
+     "work@2.5.0-alpha01",
+     "work@2.10.0-alpha03",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07692307692307693,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0",
+     "work@2.12.0-alpha01",
+     "work@2.7.0",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-beta01",
+     "work@1.0.0-alpha11",
+     "lifecycle@2.10.0",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@2.6.0",
+     "navigation@1.0.0-rc02",
+     "navigation@2.8.0-beta01",
+     "navigation@2.3.0-alpha06",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.8.0",
+     "navigation@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0-alpha03",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha04",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha09",
+     "lifecycle@2.6.0-alpha02",
+     "paging@3.3.1",
+     "lifecycle@2.8.4",
+     "paging@3.1.0",
+     "paging@3.5.0",
+     "lifecycle@2.4.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.3
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.10.0-alpha03",
+     "work@2.5.0-alpha03",
+     "work@2.7.0-beta01",
+     "work@2.7.0-alpha04",
+     "work@2.9.1",
+     "work@2.3.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha02",
+     "paging@3.2.0-alpha05",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha03",
+     "paging@3.1.0-alpha03",
+     "paging@3.2.0-alpha01",
+     "paging@1.0.0-alpha07",
+     "paging@3.0.0-alpha04"
+    ],
+    "empty": false,
+    "top_score": 0.03225806451612903
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.2.5",
+     "room@2.5.2",
+     "room@2.8.5",
+     "room@2.5.0-alpha01",
+     "room@2.8.0",
+     "room@2.2.4",
+     "room@2.5.0-rc01",
+     "navigation@2.9.0-alpha04",
+     "lifecycle@2.9.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.02690501986276634
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.8.0-alpha03",
+     "work@1.0.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha05",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha02",
+     "work@2.1.0-alpha03",
+     "work@2.3.0-beta02",
+     "work@1.0.0-alpha11"
+    ],
+    "empty": false,
+    "top_score": 0.03177805800756621
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.4.0",
+     "navigation@2.1.0-alpha01",
+     "navigation@1.0.0-alpha07",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha11",
+     "navigation@1.0.0-alpha04",
+     "lifecycle@2.1.0-alpha04",
+     "work@1.0.0-beta02",
+     "lifecycle@2.2.0-rc03"
+    ],
+    "empty": false,
+    "top_score": 0.03278688524590164
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.4",
+     "lifecycle@2.8.0",
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.4.0",
+     "work@1.0.0-alpha12",
+     "lifecycle@2.5.0",
+     "lifecycle@2.7.0",
+     "work@1.0.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.04,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.7.0-alpha04",
+     "work@2.3.1",
+     "work@2.3.0-beta02",
+     "work@2.4.0-beta01",
+     "work@2.9.1",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.5.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.8.8",
+     "navigation@2.2.0-rc03",
+     "navigation@2.4.0-beta02",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha10"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07142857142857142,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.10.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@2.1.0-alpha02",
+     "work@2.8.0-alpha03",
+     "work@2.9.0",
+     "work@2.8.0",
+     "work@2.10.0-alpha01",
+     "work@1.0.0-alpha06",
+     "work@2.1.0",
+     "work@2.4.0"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.8.8",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.1.0-alpha05",
+     "navigation@2.9.0-alpha04",
+     "navigation@1.0.0-beta02"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha19",
+     "paging@1.0.0-alpha16",
+     "paging@3.4.2",
+     "paging@1.0.0-alpha09",
+     "paging@1.0.0-alpha08",
+     "paging@3.2.0-alpha02",
+     "paging@3.2.0-alpha01",
+     "paging@3.4.1",
+     "paging@3.2.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   }
+  ],
+  "p95_s": 0.02001500001642853
+ },
+ {
+  "name": "Hybrid, Weaviate alpha=0.0",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.1.0-alpha01",
+     "room@2.7.0-rc01",
+     "room@2.7.2",
+     "room@2.3.0-alpha04",
+     "room@2.1.0-alpha02",
+     "room@2.7.0",
+     "work@2.1.0-beta01",
+     "paging@3.4.2",
+     "navigation@2.9.0-alpha09",
+     "lifecycle@2.9.2"
+    ],
+    "r5": 0.0,
+    "r10": 0.5,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.4.0-alpha01",
+     "room@2.8.0-rc02",
+     "room@2.7.0-rc01",
+     "room@2.7.2",
+     "navigation@2.9.0-alpha07",
+     "room@2.4.0-alpha04",
+     "room@2.1.0-alpha01",
+     "room@2.4.0",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha09"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.9.0-alpha03",
+     "navigation@2.1.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.9.0-beta01",
+     "lifecycle@2.9.0-rc01",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.7.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha05",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "lifecycle@2.6.0",
+     "room@2.5.0-alpha01",
+     "room@2.5.0-alpha03",
+     "room@2.6.0",
+     "lifecycle@2.7.0"
+    ],
+    "r5": 0.75,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.4.0-alpha05",
+     "room@2.6.0-alpha03",
+     "room@2.4.0-beta02",
+     "lifecycle@2.1.0-alpha02",
+     "room@2.3.0-alpha03",
+     "navigation@2.1.0-alpha06",
+     "room@2.5.0~2",
+     "room@2.6.0",
+     "room@2.4.0-alpha04",
+     "room@2.5.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.4.0",
+     "room@2.4.0-alpha04",
+     "room@2.3.0-beta02",
+     "work@1.0.0-beta02",
+     "room@2.4.0-alpha02",
+     "work@1.0.0-alpha03",
+     "room@2.0.0-beta01",
+     "room@2.7.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.4.0",
+     "room@2.7.2",
+     "navigation@2.6.0-alpha05",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.4.0-alpha08",
+     "navigation@2.4.0-alpha09",
+     "lifecycle@2.2.0-rc03"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.6.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.7.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.3.0",
+     "lifecycle@2.9.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "room@2.8.0-rc02",
+     "paging@3.4.0-alpha03",
+     "lifecycle@2.10.0-alpha02",
+     "work@2.11.0",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.9.0-rc01",
+     "work@2.11.0-alpha01",
+     "navigation@2.10.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.9.0-alpha08",
+     "lifecycle@2.11.0",
+     "lifecycle@1.1.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.5.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.11.0-alpha03",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.8.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "room@2.8.2",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.7.7",
+     "navigation@2.8.4",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.9.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.7.5",
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.1.0-alpha06",
+     "navigation@2.7.3",
+     "work@2.5.0-alpha01",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.3.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0",
+     "room@2.4.0-alpha04",
+     "paging@3.4.0-beta01",
+     "paging@3.3.5",
+     "paging@3.3.0-alpha01",
+     "paging@3.3.0",
+     "paging@3.4.2",
+     "lifecycle@2.9.3"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@2.11.0",
+     "work@2.10.5",
+     "work@2.5.0-beta01",
+     "work@2.5.0-alpha03",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha13",
+     "work@2.11.0-beta01",
+     "work@1.0.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.12.0",
+     "work@2.11.0-alpha01",
+     "work@1.0.0-alpha11",
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "work@2.12.0-alpha01",
+     "navigation@2.1.0-alpha06",
+     "work@2.7.0-beta01",
+     "work@1.0.0-alpha10"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "paging@1.0.0-alpha13",
+     "navigation@2.6.0",
+     "lifecycle@2.3.0",
+     "navigation@1.0.0-rc02",
+     "navigation@2.8.0",
+     "navigation@1.0.0-beta02",
+     "navigation@1.0.0-alpha09"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.5.1",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha10",
+     "paging@3.2.0-alpha03",
+     "room@2.4.0-alpha04",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-beta02",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha07",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha04",
+     "paging@3.1.0-alpha04",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0",
+     "paging@3.3.1",
+     "paging@3.2.0-alpha04",
+     "paging@3.2.1",
+     "paging@3.5.0",
+     "paging@3.0.0-alpha09"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.5.0-alpha03",
+     "work@2.8.0",
+     "work@2.8.0-alpha01",
+     "work@2.9.0",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-beta01",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.1.0-alpha03",
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha13",
+     "paging@3.2.0-alpha05",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha02",
+     "room@2.4.0-alpha04",
+     "room@2.6.1",
+     "paging@3.0.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "lifecycle@2.9.0-alpha02",
+     "navigation@2.9.0-alpha05",
+     "lifecycle@2.9.0-rc01",
+     "room@2.8.5",
+     "navigation@2.9.5",
+     "lifecycle@2.6.0-alpha02",
+     "room@2.8.2",
+     "room@2.8.0-rc02",
+     "navigation@2.9.0-alpha08"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@2.1.0-alpha02",
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha05",
+     "work@2.4.0-alpha01",
+     "work@2.8.0-alpha03",
+     "work@2.4.0-alpha02",
+     "work@2.8.0"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.1.0-alpha06",
+     "work@1.0.0-alpha11",
+     "navigation@1.0.0-alpha10",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha13",
+     "navigation@2.4.0",
+     "navigation@1.0.0-alpha06",
+     "work@1.0.0-alpha09",
+     "work@1.0.0-alpha10"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.0-alpha03",
+     "room@2.7.2",
+     "lifecycle@2.8.4",
+     "lifecycle@2.8.0",
+     "lifecycle@2.2.0-alpha04",
+     "navigation@2.5.0-alpha04",
+     "lifecycle@2.2.0",
+     "work@1.0.0-alpha01",
+     "work@2.1.0-beta01",
+     "navigation@1.0.0-alpha08~2"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.7.0",
+     "work@2.10.0-alpha03",
+     "work@2.3.1",
+     "work@2.10.0-alpha04",
+     "work@2.4.0",
+     "work@2.4.0-beta01",
+     "work@2.11.0-beta01",
+     "work@2.9.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.8",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.2.0-rc03",
+     "navigation@2.3.0",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.04,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.10.0",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.8.7",
+     "lifecycle@2.11.0-alpha01",
+     "navigation@2.8.0-alpha08"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.3333333333333333,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@2.8.0-alpha04",
+     "work@2.9.0",
+     "work@1.0.0-beta02",
+     "work@1.0.0-alpha11",
+     "work@2.9.1",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha08",
+     "work@2.4.0-alpha01",
+     "work@2.1.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07692307692307693,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.8.8",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.2.0-beta01",
+     "navigation@2.8.3",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.9.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha16",
+     "paging@1.0.0-alpha20",
+     "paging@1.0.0-alpha19",
+     "paging@3.4.1",
+     "paging@3.2.0-alpha02",
+     "paging@3.0.0",
+     "paging@3.4.2",
+     "paging@3.3.0",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.3333333333333333,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.018995166989043355
+ },
+ {
+  "name": "Hybrid, Weaviate alpha=0.25",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.1.0-alpha01",
+     "room@2.7.2",
+     "room@2.7.0-rc01",
+     "room@2.1.0-alpha02",
+     "room@2.7.0",
+     "room@2.3.0-alpha04",
+     "work@2.1.0-beta01",
+     "paging@3.4.2",
+     "room@2.4.0-rc01",
+     "navigation@2.9.0-alpha09"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.2,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.4.0-alpha01",
+     "room@2.8.0-rc02",
+     "room@2.4.0",
+     "room@2.7.2",
+     "room@2.1.0-alpha01",
+     "room@2.7.0-alpha06",
+     "room@2.8.0",
+     "room@2.7.0-rc01",
+     "room@2.7.0-alpha01",
+     "room@2.7.0"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.9.0-alpha03",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.9.0-beta01",
+     "navigation@2.1.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.9.0-rc01",
+     "lifecycle@2.7.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-alpha05",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "lifecycle@2.6.0",
+     "room@2.5.0-alpha01",
+     "room@2.5.0-alpha03",
+     "lifecycle@2.8.3",
+     "room@2.6.0"
+    ],
+    "r5": 0.75,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "lifecycle@2.1.0-alpha02",
+     "room@2.3.0-alpha03",
+     "room@2.5.0~2",
+     "room@2.6.0",
+     "room@2.5.0-alpha02",
+     "room@2.7.0-alpha04",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.4.0-alpha04",
+     "work@1.0.0-alpha03",
+     "room@2.4.0",
+     "room@2.3.0-beta02",
+     "room@2.7.0",
+     "work@1.0.0-beta02",
+     "room@2.4.0-alpha03",
+     "room@2.4.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.4.0",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "room@2.7.2",
+     "lifecycle@2.2.0-rc03",
+     "navigation@2.4.0-alpha08",
+     "navigation@2.4.0-alpha09"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.6.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.3.0",
+     "lifecycle@2.9.0-alpha06"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "room@2.8.0-rc02",
+     "paging@3.4.0-alpha03",
+     "lifecycle@2.10.0-alpha02",
+     "work@2.11.0",
+     "lifecycle@2.11.0-beta01",
+     "work@2.11.0-alpha01",
+     "work@2.12.0",
+     "lifecycle@2.9.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@1.1.0",
+     "lifecycle@2.11.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.9.0-alpha08",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.5.0",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.11.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 0.8933465480804443
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "navigation@2.9.0-alpha07",
+     "room@2.8.2",
+     "navigation@2.8.4",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.9.0-alpha05",
+     "navigation@2.7.7"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.7.5",
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.1.0-alpha06",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.10.0-alpha06",
+     "navigation@2.3.0-alpha04",
+     "navigation@2.7.3"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0",
+     "paging@3.4.2",
+     "paging@3.3.0-alpha01",
+     "room@2.4.0-alpha04",
+     "paging@3.4.0-beta01",
+     "paging@3.4.1",
+     "paging@3.3.6",
+     "paging@3.3.5"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@2.10.5",
+     "work@1.0.0-alpha12",
+     "work@2.11.0",
+     "work@2.5.0-beta01",
+     "work@2.11.0-beta01",
+     "work@2.8.0-beta02",
+     "work@2.5.0-alpha03",
+     "work@2.9.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.2,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.12.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01",
+     "lifecycle@2.10.0",
+     "work@1.0.0-alpha11",
+     "navigation@2.10.0-alpha01",
+     "work@2.7.0-beta01",
+     "navigation@2.1.0-alpha06",
+     "work@2.3.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@2.6.0",
+     "navigation@1.0.0-rc02",
+     "paging@1.0.0-alpha13",
+     "navigation@2.8.0",
+     "navigation@2.8.0-beta01",
+     "navigation@1.0.0-beta02",
+     "navigation@2.3.0-alpha06"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.5.1",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha10",
+     "paging@3.2.0-alpha03",
+     "room@2.4.0-alpha04",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-beta02",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha04",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0-alpha04",
+     "paging@3.0.0-alpha09",
+     "paging@3.1.0",
+     "paging@3.3.1",
+     "paging@3.2.0-alpha04",
+     "paging@3.2.1",
+     "paging@3.5.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.5.0-alpha03",
+     "work@2.8.0",
+     "work@2.7.0-alpha01",
+     "work@2.8.0-alpha01",
+     "work@2.7.0-beta01",
+     "work@2.9.0",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0-alpha03",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha02",
+     "paging@3.2.0-alpha05",
+     "paging@3.0.0-alpha13",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha10",
+     "room@2.4.0-alpha04"
+    ],
+    "empty": false,
+    "top_score": 0.9648914337158203
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha04",
+     "lifecycle@2.9.0-alpha02",
+     "room@2.8.5",
+     "navigation@2.9.0-alpha05",
+     "lifecycle@2.9.0-rc01",
+     "room@2.8.0-rc02",
+     "navigation@2.9.5",
+     "lifecycle@2.6.0-alpha02",
+     "room@2.8.2",
+     "navigation@2.9.0-alpha08"
+    ],
+    "empty": false,
+    "top_score": 0.75
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha06",
+     "work@2.8.0-alpha03",
+     "work@1.0.0-alpha05",
+     "work@2.8.0",
+     "work@2.4.0-alpha02",
+     "work@2.1.0-alpha02",
+     "work@2.1.0-alpha03"
+    ],
+    "empty": false,
+    "top_score": 0.8409766554832458
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "work@1.0.0-alpha11",
+     "navigation@2.1.0-alpha06",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.4.0",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-alpha13",
+     "navigation@1.0.0-alpha06",
+     "lifecycle@2.1.0-alpha04",
+     "work@1.0.0-alpha09"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.4",
+     "room@2.7.2",
+     "lifecycle@2.8.0",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.2.0",
+     "navigation@2.5.0-alpha04",
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.4.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.7.0",
+     "work@2.3.1",
+     "work@2.10.0-alpha03",
+     "work@2.4.0",
+     "work@2.4.0-beta01",
+     "work@2.9.1",
+     "work@2.10.0-alpha04",
+     "work@2.3.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.8.8",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.2.0-rc03",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.9.0-alpha01",
+     "navigation@2.3.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-beta02"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0625,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.9.0-alpha02",
+     "lifecycle@2.8.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@2.9.0",
+     "work@2.8.0-alpha03",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha03",
+     "work@2.8.0-alpha04",
+     "work@1.0.0-beta02",
+     "work@2.1.0-alpha02",
+     "work@2.8.0",
+     "work@2.10.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.2.0-beta01",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.1.0-alpha05",
+     "navigation@2.9.0-alpha04"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha16",
+     "paging@1.0.0-alpha19",
+     "paging@3.4.1",
+     "paging@3.4.2",
+     "paging@3.2.0-alpha02",
+     "paging@1.0.0-alpha20",
+     "paging@1.0.0-alpha09",
+     "paging@3.0.0",
+     "paging@3.3.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.3333333333333333,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.019485458033159375
+ },
+ {
+  "name": "Hybrid, Weaviate alpha=0.5",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.2",
+     "room@2.7.0",
+     "room@2.1.0-alpha02",
+     "room@2.2.6",
+     "room@2.1.0-alpha01",
+     "room@2.7.0-rc02",
+     "room@1.1.1-rc01",
+     "room@2.1.0",
+     "room@2.7.0-rc01",
+     "room@2.4.0-rc01"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.4.0",
+     "room@2.7.0",
+     "room@2.4.0-alpha01",
+     "room@2.7.0-alpha06",
+     "room@2.1.0-alpha01",
+     "room@2.7.0-alpha13",
+     "room@2.1.0-alpha02",
+     "room@2.7.2",
+     "room@2.8.0"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.8.6",
+     "lifecycle@2.9.0-alpha03",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.8.3",
+     "lifecycle@2.5.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "lifecycle@2.6.0",
+     "room@2.5.0-alpha01",
+     "room@2.5.0-alpha03",
+     "lifecycle@2.8.3",
+     "lifecycle@2.4.0"
+    ],
+    "r5": 0.75,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.7.0-alpha04",
+     "room@2.6.0",
+     "room@2.5.0-alpha02",
+     "room@2.4.0-alpha04",
+     "lifecycle@2.1.0-alpha02",
+     "room@2.1.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "work@1.0.0-alpha03",
+     "room@2.7.0",
+     "room@2.3.0-beta02",
+     "room@2.4.0-alpha04",
+     "room@2.4.0-alpha03",
+     "room@2.4.0-rc01",
+     "room@2.4.0",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "navigation@1.0.0-alpha02",
+     "lifecycle@2.2.0-alpha04",
+     "navigation@2.6.0-alpha05",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0-rc03",
+     "work@2.7.0-alpha01",
+     "room@2.7.2",
+     "navigation@2.4.0-alpha08"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.6.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.3.0",
+     "lifecycle@2.1.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "paging@3.4.0-alpha03",
+     "room@2.8.0-rc02",
+     "lifecycle@2.10.0-alpha02",
+     "work@2.11.0",
+     "lifecycle@2.11.0-beta01",
+     "work@2.11.0-alpha01",
+     "lifecycle@2.5.0-alpha05",
+     "work@2.12.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@1.1.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.11.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.4.0",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.9.0-alpha01"
+    ],
+    "empty": false,
+    "top_score": 0.9169571399688721
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha04",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.8.4",
+     "navigation@2.8.0-rc01",
+     "navigation@2.10.2",
+     "navigation@2.9.0-alpha05",
+     "navigation@2.8.5",
+     "navigation@2.4.0-alpha01",
+     "room@2.8.2"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.7.5",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.10.0-alpha06",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.3.0-alpha04",
+     "navigation@2.1.0-alpha06"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.2",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.5.0-rc01",
+     "paging@3.4.1",
+     "paging@3.3.6",
+     "paging@3.0.0-alpha01",
+     "paging@3.3.0-alpha01",
+     "paging@3.0.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha12",
+     "work@2.9.0-rc01",
+     "work@2.8.0-beta02",
+     "work@2.11.0-beta01",
+     "work@2.5.0-beta02",
+     "work@2.10.4",
+     "work@1.0.0-beta02",
+     "work@2.10.5"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.04,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0",
+     "work@2.12.0-alpha01",
+     "lifecycle@2.10.0",
+     "work@1.0.0-alpha11",
+     "work@2.7.0-beta01",
+     "work@2.7.0",
+     "work@2.7.0-alpha01",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@1.0.0-rc02",
+     "navigation@2.6.0",
+     "navigation@2.8.0-beta01",
+     "navigation@2.3.0-alpha06",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.8.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha11",
+     "room@2.4.0-alpha04",
+     "paging@3.2.0-alpha03",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07",
+     "paging@3.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha04",
+     "paging@3.1.0-alpha04",
+     "paging@3.3.1",
+     "paging@3.1.0",
+     "lifecycle@2.6.0-alpha02",
+     "paging@3.5.0",
+     "paging@3.2.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.5.0-alpha03",
+     "work@2.10.0-alpha03",
+     "work@2.7.0-beta01",
+     "work@2.8.0",
+     "work@2.7.0-alpha04",
+     "work@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0",
+     "paging@3.2.0-alpha05",
+     "paging@3.0.0-alpha13",
+     "paging@3.1.0-alpha03",
+     "paging@3.0.0-alpha03",
+     "paging@3.2.0-alpha01",
+     "paging@1.0.0-alpha07",
+     "paging@3.0.0-alpha04"
+    ],
+    "empty": false,
+    "top_score": 0.9314873218536377
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@2.2.5",
+     "room@2.8.0-rc02",
+     "room@2.8.5",
+     "navigation@2.9.0-alpha04",
+     "room@2.7.0-rc02",
+     "room@2.2.3",
+     "lifecycle@2.9.0-alpha02",
+     "room@2.5.2",
+     "room@2.2.6",
+     "room@2.1.0-alpha05"
+    ],
+    "empty": false,
+    "top_score": 0.5838685631752014
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha03",
+     "work@2.8.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@2.3.0-beta02",
+     "work@2.8.0",
+     "work@1.0.0-alpha05",
+     "work@2.4.0-alpha02",
+     "work@2.1.0-alpha03",
+     "work@1.0.0-alpha11"
+    ],
+    "empty": false,
+    "top_score": 0.8413836359977722
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.4.0",
+     "navigation@1.0.0-alpha07",
+     "work@1.0.0-alpha11",
+     "navigation@2.1.0-alpha06",
+     "navigation@2.1.0-alpha01",
+     "navigation@1.0.0-alpha10",
+     "work@1.0.0-alpha12",
+     "lifecycle@2.1.0-alpha04",
+     "work@1.0.0-alpha13"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.4",
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.0",
+     "room@2.7.2",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.2.0",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.4.0",
+     "navigation@2.5.0-alpha04"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.029411764705882353,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.7.0-alpha04",
+     "work@2.3.1",
+     "work@2.3.0-beta02",
+     "work@2.4.0-beta01",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.9.1",
+     "work@2.5.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.8",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.2.0-rc03",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.4.0-beta02",
+     "navigation@1.0.0-alpha10"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.08333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.10.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.8.6"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.1.0-alpha02",
+     "work@2.9.0",
+     "work@1.0.0-alpha03",
+     "work@2.10.0-alpha01",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha06",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@1.0.0-beta02",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.1.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha19",
+     "paging@1.0.0-alpha16",
+     "paging@3.4.2",
+     "paging@1.0.0-alpha08",
+     "paging@1.0.0-alpha09",
+     "paging@3.4.1",
+     "paging@3.2.0-alpha02",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.7
+   }
+  ],
+  "p95_s": 0.01928904198575765
+ },
+ {
+  "name": "Hybrid, Weaviate alpha=0.75",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.2.6",
+     "room@1.1.1-rc01",
+     "room@2.1.0",
+     "room@2.2.3",
+     "room@2.2.0-beta01",
+     "room@2.7.2",
+     "room@2.7.0",
+     "room@2.1.0-alpha02",
+     "room@2.7.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.5,
+    "rr": 0.125,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.7.0",
+     "room@2.7.0-alpha13",
+     "room@2.7.0-rc02",
+     "room@2.4.0",
+     "room@2.1.0-alpha02",
+     "room@2.2.6",
+     "room@2.7.0-alpha06",
+     "work@2.3.0-beta02",
+     "room@2.2.3"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 1.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.8.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.3.0-alpha06",
+     "lifecycle@2.8.6",
+     "lifecycle@2.3.0-alpha07",
+     "lifecycle@2.2.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.2,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "room@2.5.0-alpha02",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha01",
+     "lifecycle@2.9.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.7.0-alpha04",
+     "room@2.5.0-alpha02",
+     "room@2.6.0",
+     "room@2.1.0-alpha01",
+     "room@2.4.0",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "work@1.0.0-alpha03",
+     "room@2.7.0",
+     "room@2.3.0-beta02",
+     "room@2.4.0-alpha03",
+     "room@2.4.0-rc01",
+     "room@2.4.0-alpha04",
+     "room@2.8.0",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "navigation@1.0.0-alpha08~2",
+     "work@2.7.0-alpha01",
+     "lifecycle@2.4.0",
+     "work@2.7.0-alpha04",
+     "lifecycle@2.4.0-alpha01",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.8.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.6.0",
+     "lifecycle@1.1.0",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.7.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "paging@3.4.0-alpha03",
+     "work@2.11.0",
+     "room@2.8.0-rc02",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.5.0-alpha05",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@1.1.0",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.11.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.4.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.0.0"
+    ],
+    "empty": false,
+    "top_score": 0.95310378074646
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha07",
+     "navigation@2.9.0-alpha04",
+     "navigation@2.10.2",
+     "navigation@2.8.0-rc01",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.8.5",
+     "navigation@2.2.2",
+     "navigation@2.8.4",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.5.2"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.7.5",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.5.2",
+     "navigation@2.3.0",
+     "navigation@2.3.0-alpha05",
+     "navigation@2.7.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.2",
+     "paging@3.5.0-rc01",
+     "paging@3.0.0-alpha01",
+     "paging@3.4.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.1",
+     "paging@3.3.6",
+     "paging@3.0.0",
+     "paging@3.0.0-alpha10"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-beta02",
+     "work@1.0.0-alpha12",
+     "work@2.9.0-rc01",
+     "work@2.12.0-alpha01",
+     "work@1.0.0-beta05",
+     "work@2.5.0-beta02",
+     "work@2.11.0-beta01",
+     "work@2.10.4"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01",
+     "work@2.12.0",
+     "work@2.7.0",
+     "work@2.10.0-alpha03",
+     "work@2.7.0-alpha01",
+     "work@2.8.0-rc01",
+     "lifecycle@2.10.0",
+     "work@1.0.0-alpha11"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@2.8.0-beta01",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@1.0.0-rc02",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.6.0",
+     "navigation@2.7.4"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha13",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha07",
+     "paging@3.1.0-alpha03",
+     "paging@3.0.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha04",
+     "lifecycle@2.6.0-alpha02",
+     "lifecycle@2.8.4",
+     "paging@3.3.1",
+     "lifecycle@2.9.0-alpha07",
+     "lifecycle@2.4.0",
+     "paging@3.1.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.4
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.10.0-alpha03",
+     "work@2.7.0-alpha04",
+     "work@2.4.0",
+     "work@2.7.0",
+     "work@2.5.0-alpha03",
+     "work@2.7.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha11",
+     "paging@3.2.0-alpha05",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha04",
+     "paging@1.0.0-alpha07",
+     "paging@3.2.0-alpha06",
+     "paging@3.0.0-alpha07"
+    ],
+    "empty": false,
+    "top_score": 0.9437941312789917
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@2.2.5",
+     "room@2.7.0-rc02",
+     "room@2.2.3",
+     "room@2.2.6",
+     "room@2.1.0-alpha05",
+     "room@2.1.0",
+     "room@2.2.0-beta01",
+     "room@2.8.0-rc02",
+     "room@2.4.0-alpha02",
+     "room@2.8.0-beta01"
+    ],
+    "empty": false,
+    "top_score": 0.7919343113899231
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha03",
+     "work@2.1.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha02",
+     "work@1.0.0-alpha05",
+     "work@1.0.0-alpha11",
+     "work@2.3.0-beta02"
+    ],
+    "empty": false,
+    "top_score": 0.9206918478012085
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@1.0.0-alpha07",
+     "navigation@2.4.0",
+     "navigation@2.1.0-alpha01",
+     "lifecycle@2.3.0-beta01",
+     "navigation@2.2.2",
+     "navigation@2.3.0-beta01",
+     "navigation@1.0.0-alpha03",
+     "navigation@1.0.0-alpha04",
+     "work@1.0.0-alpha12"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.8.4",
+     "lifecycle@2.2.0-alpha05",
+     "lifecycle@2.8.0",
+     "work@2.8.0-alpha01",
+     "work@2.7.1",
+     "lifecycle@2.7.0",
+     "lifecycle@2.3.0",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.7.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.05263157894736842,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.3.0-beta02",
+     "work@2.7.0-alpha04",
+     "work@2.3.1",
+     "work@2.9.1",
+     "work@2.4.0-beta01",
+     "work@2.4.0",
+     "work@2.10.5",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.4.0-beta02",
+     "navigation@2.8.8",
+     "navigation@2.4.0-rc01",
+     "navigation@2.6.0-alpha09"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.08333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.6",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.10.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.1.0-alpha02",
+     "work@2.9.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@2.10.0-alpha01",
+     "work@2.9.0",
+     "work@2.4.0-alpha01",
+     "work@1.0.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@1.0.0-beta02",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.1.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha19",
+     "paging@1.0.0-alpha08",
+     "paging@3.4.2",
+     "paging@1.0.0-alpha16",
+     "paging@3.2.0-alpha01",
+     "paging@1.0.0-alpha09",
+     "paging@3.5.0-rc01",
+     "paging@3.0.0-alpha01",
+     "paging@3.0.0"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.019268083036877215
+ },
+ {
+  "name": "Hybrid, Weaviate alpha=1.0",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.2.6",
+     "room@1.1.1-rc01",
+     "room@2.1.0",
+     "room@2.2.3",
+     "room@2.2.0-beta01",
+     "room@2.7.0-alpha05",
+     "room@2.1.0-alpha01",
+     "room@2.5.0-beta01",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.058823529411764705,
+    "wrong10": 0.7
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.7.0-alpha13",
+     "room@2.8.0-rc02",
+     "room@2.7.0",
+     "room@2.2.6",
+     "work@2.3.0-beta02",
+     "room@2.2.3",
+     "room@2.2.0",
+     "room@2.4.0-alpha02",
+     "room@2.1.0-alpha02"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.3.0-alpha06",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.3.0-alpha07",
+     "lifecycle@2.2.0-alpha01",
+     "lifecycle@2.5.0",
+     "lifecycle@2.2.0-beta01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.041666666666666664,
+    "wrong10": 0.9
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "lifecycle@2.9.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.3.0-beta01",
+     "lifecycle@2.2.0",
+     "room@2.5.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-beta02",
+     "room@2.4.0-alpha05",
+     "room@2.7.0-alpha06",
+     "room@2.7.0-alpha04",
+     "room@2.7.0-alpha08",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha02",
+     "room@2.3.0",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "work@1.0.0-alpha03",
+     "room@2.7.0",
+     "room@2.4.0-alpha03",
+     "room@2.8.0",
+     "room@2.4.0-rc01",
+     "room@2.3.0-beta02",
+     "room@2.5.0-alpha01",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.1
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "navigation@1.0.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "navigation@1.0.0-alpha08~2",
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-alpha01",
+     "navigation@2.1.0-alpha03",
+     "work@2.6.0",
+     "work@2.6.0-alpha01"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.6
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@1.1.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.3.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "paging@3.4.0-alpha03",
+     "work@2.11.0",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.11.0-beta01",
+     "room@2.8.0-rc02",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.3.0-beta01",
+     "navigation@2.10.0-rc01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@1.1.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.4.0",
+     "lifecycle@2.0.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.11.0"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha07",
+     "navigation@2.10.2",
+     "navigation@2.9.0-alpha04",
+     "navigation@2.2.2",
+     "navigation@2.8.0-rc01",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.8.5",
+     "navigation@2.5.2",
+     "navigation@2.8.0-alpha01",
+     "navigation@2.7.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.5.2",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.7.5",
+     "navigation@2.3.0",
+     "navigation@2.3.0-alpha05",
+     "navigation@2.2.2"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.5
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.2",
+     "paging@3.5.0-rc01",
+     "paging@3.0.0-alpha01",
+     "paging@3.0.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.0.0-alpha10",
+     "paging@3.4.1",
+     "paging@3.3.6",
+     "paging@3.4.0",
+     "paging@3.3.0-alpha04"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.2,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha10",
+     "work@1.0.0-beta02",
+     "work@2.12.0-alpha01",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-beta05",
+     "work@2.9.0-rc01",
+     "work@2.5.0-rc01",
+     "work@1.0.0-alpha12",
+     "work@1.0.0-beta03",
+     "work@2.5.0-beta02"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0,
+    "wrong10": 1.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.12.0-alpha01",
+     "work@2.12.0",
+     "work@2.7.0",
+     "work@2.10.0-alpha03",
+     "work@2.8.0-rc01",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha02",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.8
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.8.0-beta01",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha02",
+     "navigation@1.0.0-rc02",
+     "navigation@2.6.0",
+     "navigation@2.7.4"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha13",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-beta03",
+     "paging@3.0.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha02",
+     "lifecycle@2.6.0-alpha02",
+     "paging@3.0.0-alpha04",
+     "lifecycle@2.9.0-alpha07",
+     "lifecycle@2.8.4",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha13",
+     "lifecycle@2.4.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.4
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.7.0",
+     "work@2.9.1",
+     "work@2.7.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha11",
+     "paging@3.2.0-alpha05",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha04",
+     "paging@3.2.0-alpha06",
+     "paging@3.0.0-alpha12",
+     "paging@1.0.0-alpha07",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "room@2.2.5",
+     "room@2.7.0-rc02",
+     "room@2.2.3",
+     "room@2.2.6",
+     "room@2.1.0-alpha05",
+     "room@2.1.0",
+     "room@2.2.0-beta01",
+     "room@2.4.0-alpha02",
+     "room@2.8.0-beta01",
+     "room@2.1.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.8.0-alpha03",
+     "work@2.1.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha11",
+     "work@2.4.0-alpha02",
+     "work@1.0.0-alpha05",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@1.0.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [
+     "navigation@1.0.0-alpha08~2",
+     "navigation@1.0.0-alpha07",
+     "lifecycle@2.3.0-beta01",
+     "navigation@2.2.2",
+     "navigation@2.1.0-alpha01",
+     "navigation@2.3.0-beta01",
+     "navigation@2.4.0",
+     "navigation@1.0.0-alpha03",
+     "navigation@1.0.0-alpha04",
+     "lifecycle@1.1.0"
+    ],
+    "empty": false,
+    "top_score": 1.0
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-alpha05",
+     "work@2.8.0-alpha01",
+     "work@2.7.1",
+     "lifecycle@2.7.0",
+     "lifecycle@2.8.4",
+     "lifecycle@2.3.0",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.7.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07692307692307693,
+    "wrong10": 0.2
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.3.0-beta02",
+     "work@2.7.0",
+     "work@2.3.1",
+     "work@2.7.0-alpha04",
+     "work@2.9.1",
+     "work@2.4.0-beta01",
+     "work@2.10.5",
+     "work@2.4.0",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.3.0-alpha06",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.6.0-alpha09",
+     "navigation@2.4.0-beta02",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.2.0-beta01",
+     "navigation@2.4.0-rc01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07142857142857142,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.8.6",
+     "lifecycle@2.8.0",
+     "lifecycle@2.12.0-alpha03",
+     "lifecycle@2.10.0-alpha03",
+     "lifecycle@2.9.0-beta01"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.1.0-alpha02",
+     "work@2.9.0-alpha01",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha04",
+     "work@2.10.0-alpha01",
+     "work@2.4.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@1.0.0-beta02",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.3.0-alpha05"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@1.0.0-alpha08",
+     "paging@1.0.0-alpha19",
+     "paging@3.2.0-alpha01",
+     "paging@3.4.2",
+     "paging@1.0.0-alpha16",
+     "paging@1.0.0-alpha09",
+     "paging@3.0.0-alpha01",
+     "paging@3.5.0-rc01",
+     "paging@3.0.0"
+    ],
+    "r5": 0.6666666666666666,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.8
+   }
+  ],
+  "p95_s": 0.01901308400556445
+ },
+ {
+  "name": "Dense + library/version filter",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-rc02",
+     "room@2.7.0-alpha05",
+     "room@2.7.0-alpha13",
+     "room@2.7.0-alpha06",
+     "room@2.7.0",
+     "room@2.7.0-alpha12",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha08",
+     "room@2.7.0-alpha07",
+     "room@2.7.0-alpha03"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.2,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.8.0",
+     "room@2.8.0-rc01",
+     "room@2.8.0-beta01",
+     "room@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-beta01",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "lifecycle@2.6.0-alpha02",
+     "lifecycle@2.6.0-alpha03",
+     "lifecycle@2.6.0-rc01",
+     "lifecycle@2.6.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-beta02",
+     "room@2.4.0-alpha05",
+     "room@2.7.0-alpha06",
+     "room@2.7.0-alpha04",
+     "room@2.7.0-alpha08",
+     "room@2.5.0~2",
+     "room@2.5.0-alpha02",
+     "room@2.3.0",
+     "room@2.5.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.7.0",
+     "room@2.4.0-alpha03",
+     "room@2.8.0",
+     "room@2.4.0-rc01",
+     "room@2.3.0-beta02",
+     "room@2.5.0-alpha01",
+     "room@2.7.0-alpha13",
+     "room@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-alpha01",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.12.0-alpha02",
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.1",
+     "lifecycle@2.2.0-rc03"
+    ],
+    "r5": 0.5,
+    "r10": 0.5,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@1.1.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.3.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.3.0-beta01",
+     "lifecycle@2.3.0-alpha02",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.9.3",
+     "lifecycle@1.1.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@1.1.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.4.0",
+     "lifecycle@2.0.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.11.0"
+    ],
+    "empty": false,
+    "top_score": 0.7709044814109802
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.10.0-alpha06",
+     "navigation@2.10.0-alpha03",
+     "navigation@2.10.0",
+     "navigation@2.10.0-alpha04",
+     "navigation@2.10.0-rc01",
+     "navigation@2.10.0-alpha01",
+     "navigation@2.10.0-beta01"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha08",
+     "navigation@2.6.0-rc02",
+     "navigation@2.6.0-beta01",
+     "navigation@2.6.0-alpha05",
+     "navigation@2.6.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0-rc01",
+     "paging@3.4.0-alpha02",
+     "paging@3.4.0-alpha04",
+     "paging@3.4.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@2.11.0-beta01",
+     "work@2.11.0-alpha01",
+     "work@2.11.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.12.0-alpha01",
+     "work@2.12.0",
+     "work@2.12.0-rc01",
+     "work@2.12.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.8.0-beta01",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha02",
+     "navigation@1.0.0-rc02",
+     "navigation@2.6.0",
+     "navigation@2.7.4"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha13",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-beta03",
+     "paging@3.0.1"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha04",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha13",
+     "paging@3.3.1",
+     "paging@3.0.0-beta03",
+     "paging@3.5.0-beta01",
+     "paging@3.5.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.7.0-alpha04",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.7.0",
+     "work@2.9.1",
+     "work@2.7.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha11",
+     "paging@3.2.0-alpha05",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha04",
+     "paging@3.2.0-alpha06",
+     "paging@3.0.0-alpha12",
+     "paging@1.0.0-alpha07",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07"
+    ],
+    "empty": false,
+    "top_score": 0.764938235282898
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.8.0-alpha03",
+     "work@2.1.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha11",
+     "work@2.4.0-alpha02",
+     "work@1.0.0-alpha05",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@1.0.0-rc01"
+    ],
+    "empty": false,
+    "top_score": 0.8028860688209534
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-alpha05",
+     "lifecycle@2.7.0",
+     "lifecycle@2.8.4",
+     "lifecycle@2.3.0",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.7.0-alpha03",
+     "lifecycle@2.5.0",
+     "lifecycle@2.8.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.09090909090909091,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.3.0-beta02",
+     "work@2.7.0",
+     "work@2.3.1",
+     "work@2.7.0-alpha04",
+     "work@2.9.1",
+     "work@2.4.0-beta01",
+     "work@2.10.5",
+     "work@2.4.0",
+     "work@2.10.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.3.0-alpha06",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.6.0-alpha09",
+     "navigation@2.4.0-beta02",
+     "navigation@2.3.0-alpha02",
+     "navigation@2.2.0-beta01",
+     "navigation@2.4.0-rc01"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07142857142857142,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.8.6",
+     "lifecycle@2.8.0",
+     "lifecycle@2.12.0-alpha03",
+     "lifecycle@2.10.0-alpha03",
+     "lifecycle@2.9.0-beta01"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.1.0-alpha02",
+     "work@2.9.0-alpha01",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha04",
+     "work@2.10.0-alpha01",
+     "work@2.4.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@1.0.0-beta02",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.3.0-alpha05"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@3.2.0-alpha01",
+     "paging@3.2.0",
+     "paging@3.2.0-rc01",
+     "paging@3.2.0-alpha02",
+     "paging@3.2.0-alpha05",
+     "paging@3.2.0-alpha06",
+     "paging@3.2.0-alpha03",
+     "paging@3.2.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   }
+  ],
+  "p95_s": 0.019233208033256233
+ },
+ {
+  "name": "Hybrid, our RRF + filter",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0",
+     "room@2.7.0-alpha08",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha13",
+     "room@2.7.0-alpha05",
+     "room@2.7.0-rc01",
+     "room@2.7.0-rc02",
+     "room@2.7.0-alpha07",
+     "room@2.7.0-alpha06",
+     "room@2.7.0-alpha12"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.8.0",
+     "room@2.8.0-rc01",
+     "room@2.8.0-beta01",
+     "room@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.0-beta01",
+     "lifecycle@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0",
+     "lifecycle@2.6.0-alpha02",
+     "lifecycle@2.6.0-rc01",
+     "lifecycle@2.6.0-alpha03",
+     "lifecycle@2.6.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.7.0-alpha04",
+     "room@2.5.0-alpha02",
+     "room@2.6.0",
+     "room@2.1.0-alpha01",
+     "room@2.4.0",
+     "room@2.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.7.0",
+     "room@2.3.0-beta02",
+     "room@2.4.0-alpha03",
+     "room@2.4.0-alpha04",
+     "room@2.4.0-rc01",
+     "room@2.5.0-alpha01",
+     "room@2.3.0-alpha01",
+     "room@2.3.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.2.0-rc03",
+     "lifecycle@2.4.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@1.1.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.6.0"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.2.0",
+     "lifecycle@2.8.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.6.0",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.3.0",
+     "lifecycle@2.1.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.12.0-alpha03",
+     "lifecycle@2.7.0-alpha02",
+     "lifecycle@2.8.0",
+     "lifecycle@2.4.0-alpha02",
+     "lifecycle@2.4.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@1.1.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.11.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.4.0",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.03200204813108039
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.10.0-alpha03",
+     "navigation@2.10.0",
+     "navigation@2.10.0-alpha06",
+     "navigation@2.10.0-alpha01",
+     "navigation@2.10.0-rc01",
+     "navigation@2.10.0-alpha04",
+     "navigation@2.10.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.6.0-beta01",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-rc02",
+     "navigation@2.6.0-alpha08",
+     "navigation@2.6.0-rc01",
+     "navigation@2.6.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-rc01",
+     "paging@3.4.0-alpha02",
+     "paging@3.4.0-beta01",
+     "paging@3.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@2.11.0-beta01",
+     "work@2.11.0",
+     "work@2.11.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.12.0",
+     "work@2.12.0-alpha01",
+     "work@2.12.0-rc01",
+     "work@2.12.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@2.6.0",
+     "navigation@1.0.0-rc02",
+     "navigation@2.8.0-beta01",
+     "navigation@2.3.0-alpha06",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.8.0",
+     "navigation@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0-alpha03",
+     "paging@3.1.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha04",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha09",
+     "paging@3.3.1",
+     "paging@3.1.0",
+     "paging@3.5.0",
+     "paging@3.1.0-alpha04",
+     "paging@3.2.1",
+     "paging@3.2.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.10.0-alpha03",
+     "work@2.5.0-alpha03",
+     "work@2.7.0-beta01",
+     "work@2.7.0-alpha04",
+     "work@2.9.1",
+     "work@2.3.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha02",
+     "paging@3.2.0-alpha05",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha03",
+     "paging@1.0.0-alpha07",
+     "paging@3.1.0-alpha03",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha04"
+    ],
+    "empty": false,
+    "top_score": 0.03225806451612903
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@2.8.0-alpha03",
+     "work@1.0.0-alpha03",
+     "work@2.8.0",
+     "work@1.0.0-alpha05",
+     "work@1.0.0-alpha06",
+     "work@2.4.0-alpha02",
+     "work@2.1.0-alpha03",
+     "work@2.3.0-beta02",
+     "work@1.0.0-alpha11"
+    ],
+    "empty": false,
+    "top_score": 0.03177805800756621
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.8.4",
+     "lifecycle@2.8.0",
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.5.0",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.4.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.7.0-alpha03"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.06666666666666667,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.7.0-alpha04",
+     "work@2.3.1",
+     "work@2.3.0-beta02",
+     "work@2.4.0-beta01",
+     "work@2.9.1",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.5.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.8.8",
+     "navigation@2.4.0-beta02",
+     "navigation@2.2.0-rc03",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha01",
+     "navigation@1.0.0-alpha10"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.07142857142857142,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.10.0",
+     "lifecycle@2.8.6"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@1.0.0-alpha03",
+     "work@2.1.0-alpha02",
+     "work@2.8.0-alpha03",
+     "work@2.9.0",
+     "work@2.8.0",
+     "work@2.10.0-alpha01",
+     "work@1.0.0-alpha06",
+     "work@2.1.0",
+     "work@2.4.0"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.25,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@1.0.0-alpha10",
+     "navigation@2.8.8",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.1.0-alpha05",
+     "navigation@2.9.0-alpha04",
+     "navigation@1.0.0-beta02"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@3.2.0-alpha01",
+     "paging@3.2.0",
+     "paging@3.2.0-alpha02",
+     "paging@3.2.0-rc01",
+     "paging@3.2.0-alpha05",
+     "paging@3.2.0-alpha06",
+     "paging@3.2.0-alpha04",
+     "paging@3.2.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   }
+  ],
+  "p95_s": 0.02011929196305573
+ },
+ {
+  "name": "Hybrid alpha=0.5 + filter",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0",
+     "room@2.7.0-rc01",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha08",
+     "room@2.7.0-rc02",
+     "room@2.7.0-alpha13",
+     "room@2.7.0-alpha05",
+     "room@2.7.0-alpha06",
+     "room@2.7.0-alpha07",
+     "room@2.7.0-alpha12"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0-rc02",
+     "room@2.8.0",
+     "room@2.8.0-rc01",
+     "room@2.8.0-beta01",
+     "room@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.0-beta01",
+     "lifecycle@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "lifecycle@2.6.0-alpha02",
+     "lifecycle@2.6.0-rc01",
+     "lifecycle@2.6.0-alpha03",
+     "lifecycle@2.6.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.4.0-alpha05",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.7.0-alpha04",
+     "room@2.6.0",
+     "room@2.5.0-alpha02",
+     "room@2.4.0-alpha04",
+     "room@2.1.0-alpha01",
+     "room@2.4.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.7.0",
+     "room@2.3.0-beta02",
+     "room@2.4.0-alpha04",
+     "room@2.4.0-alpha03",
+     "room@2.4.0-rc01",
+     "room@2.4.0",
+     "room@2.5.0-alpha01",
+     "room@2.8.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0-rc03",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.7.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.6.0"
+    ],
+    "r5": 0.5,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.6.0",
+     "lifecycle@2.7.0-alpha01",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.3.0",
+     "lifecycle@2.1.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.11.0-beta01",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.9.0-rc01",
+     "lifecycle@2.12.0-alpha03",
+     "lifecycle@2.9.0-alpha01",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.8.0",
+     "lifecycle@2.9.3"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@1.1.0",
+     "lifecycle@2.11.0-alpha01",
+     "lifecycle@2.11.0",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.1.0-alpha02",
+     "lifecycle@2.4.0",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.9305574893951416
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.10.0-alpha03",
+     "navigation@2.10.0",
+     "navigation@2.10.0-alpha06",
+     "navigation@2.10.0-alpha04",
+     "navigation@2.10.0-alpha01",
+     "navigation@2.10.0-rc01",
+     "navigation@2.10.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-beta01",
+     "navigation@2.6.0-rc02",
+     "navigation@2.6.0-alpha08",
+     "navigation@2.6.0-rc01",
+     "navigation@2.6.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-rc01",
+     "paging@3.4.0-alpha02",
+     "paging@3.4.0-beta01",
+     "paging@3.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@2.11.0-beta01",
+     "work@2.11.0",
+     "work@2.11.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.12.0",
+     "work@2.12.0-alpha01",
+     "work@2.12.0-rc01",
+     "work@2.12.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@1.0.0-rc02",
+     "navigation@2.6.0",
+     "navigation@2.8.0-beta01",
+     "navigation@2.3.0-alpha06",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.4.0-alpha09",
+     "navigation@2.8.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.2.0-alpha01",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha11",
+     "paging@3.2.0-alpha03",
+     "paging@3.0.0-alpha03",
+     "paging@3.0.0-alpha07",
+     "paging@3.0.0-beta02",
+     "paging@3.0.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha04",
+     "paging@3.1.0-alpha04",
+     "paging@3.3.1",
+     "paging@3.1.0",
+     "paging@3.5.0",
+     "paging@3.2.1",
+     "paging@3.2.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.3.1",
+     "work@2.7.0-alpha01",
+     "work@2.5.0-alpha03",
+     "work@2.10.0-alpha03",
+     "work@2.7.0-beta01",
+     "work@2.8.0",
+     "work@2.7.0-alpha04",
+     "work@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha11",
+     "paging@3.0.0-alpha02",
+     "paging@3.1.0",
+     "paging@3.2.0-alpha05",
+     "paging@3.0.0-alpha13",
+     "paging@3.1.0-alpha03",
+     "paging@3.0.0-alpha03",
+     "paging@3.2.0-alpha01",
+     "paging@1.0.0-alpha07",
+     "paging@3.0.0-alpha04"
+    ],
+    "empty": false,
+    "top_score": 0.9352657198905945
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@1.0.0-alpha04",
+     "work@1.0.0-alpha03",
+     "work@2.8.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@2.3.0-beta02",
+     "work@2.8.0",
+     "work@1.0.0-alpha05",
+     "work@2.4.0-alpha02",
+     "work@2.1.0-alpha03",
+     "work@1.0.0-alpha11"
+    ],
+    "empty": false,
+    "top_score": 0.8413836359977722
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.8.4",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.2.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0-alpha05"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.0625,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.7.0-alpha04",
+     "work@2.3.1",
+     "work@2.3.0-beta02",
+     "work@2.4.0-beta01",
+     "work@2.4.0",
+     "work@2.10.0-alpha03",
+     "work@2.9.1",
+     "work@2.5.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.8",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.0-alpha06",
+     "navigation@2.2.0-rc03",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.4.0-beta02",
+     "navigation@1.0.0-alpha10"
+    ],
+    "r5": 0.0,
+    "r10": 0.0,
+    "rr": 0.09090909090909091,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.8.7",
+     "lifecycle@2.10.0-alpha01",
+     "lifecycle@2.8.0",
+     "lifecycle@2.10.0",
+     "lifecycle@2.10.0-alpha04",
+     "lifecycle@2.8.6"
+    ],
+    "r5": 0.3333333333333333,
+    "r10": 0.6666666666666666,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.1.0-alpha02",
+     "work@2.9.0",
+     "work@1.0.0-alpha03",
+     "work@2.10.0-alpha01",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-alpha06",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha08",
+     "navigation@2.2.0-beta01",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@1.0.0-beta02",
+     "navigation@2.6.0-alpha04",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.1.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0-beta01",
+     "paging@3.2.0-alpha02",
+     "paging@3.2.0-alpha01",
+     "paging@3.2.0",
+     "paging@3.2.0-rc01",
+     "paging@3.2.0-alpha05",
+     "paging@3.2.0-alpha06",
+     "paging@3.2.0-alpha03",
+     "paging@3.2.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   }
+  ],
+  "p95_s": 0.019093833048827946
+ },
+ {
+  "name": "Hybrid alpha=0.5 + filter + rerank",
+  "rows": [
+   {
+    "id": "q01",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "room@2.7.0-alpha10",
+     "room@2.7.0-alpha01",
+     "room@2.7.0-alpha12",
+     "room@2.7.0",
+     "room@2.7.0-alpha05",
+     "room@2.7.0-alpha08",
+     "room@2.7.0-beta01",
+     "room@2.7.0-alpha06",
+     "room@2.7.0-alpha11",
+     "room@2.7.0-alpha13"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q02",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "room@2.8.0",
+     "room@2.8.0-alpha01",
+     "room@2.8.0-rc02",
+     "room@2.8.0-rc01",
+     "room@2.8.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q03",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.8.0-alpha02",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.8.0-beta01",
+     "lifecycle@2.8.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q04",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.6.0",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0-beta01",
+     "lifecycle@2.6.0-alpha05",
+     "lifecycle@2.6.0-alpha02",
+     "lifecycle@2.6.0-rc01",
+     "lifecycle@2.6.0-alpha01",
+     "lifecycle@2.6.0-alpha03"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q05",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "room@2.6.0-alpha03",
+     "room@2.5.0-alpha02",
+     "room@2.4.0-beta02",
+     "room@2.5.0~2",
+     "room@2.4.0-alpha05",
+     "room@2.3.0-alpha01",
+     "room@2.1.0-alpha01",
+     "room@1.1.0-alpha01",
+     "room@2.7.0-alpha08",
+     "room@2.1.0-alpha05"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q06",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "room@2.7.0-alpha01",
+     "room@2.1.0-alpha05",
+     "room@2.4.0",
+     "room@2.1.0",
+     "room@2.6.0",
+     "room@2.8.0",
+     "room@2.4.0-alpha04",
+     "room@2.8.0-alpha01",
+     "room@2.3.0-beta02",
+     "room@2.3.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q07",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.2.0-alpha04",
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.2.0-rc01",
+     "lifecycle@2.2.0",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.7.0",
+     "lifecycle@2.6.0",
+     "lifecycle@2.3.0-beta01",
+     "lifecycle@2.9.0-alpha09"
+    ],
+    "r5": 0.0,
+    "r10": 1.0,
+    "rr": 0.16666666666666666,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q08",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.7.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.6.0",
+     "lifecycle@2.11.0",
+     "lifecycle@2.10.0-beta01",
+     "lifecycle@2.12.0-alpha01",
+     "lifecycle@2.12.0-alpha02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q09",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.10.0",
+     "lifecycle@2.10.0-alpha02",
+     "lifecycle@2.3.0-beta01",
+     "lifecycle@2.4.0-alpha02",
+     "lifecycle@2.5.0-alpha03",
+     "lifecycle@2.9.0-alpha12",
+     "lifecycle@2.6.0-alpha04",
+     "lifecycle@2.7.0-beta01",
+     "lifecycle@2.5.0-alpha05",
+     "lifecycle@2.9.0-alpha08"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q10",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.11.0",
+     "lifecycle@2.2.0-alpha03",
+     "lifecycle@2.11.0-alpha03",
+     "lifecycle@2.4.0",
+     "lifecycle@1.1.0",
+     "lifecycle@2.9.0-alpha09",
+     "lifecycle@2.5.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.8.0-rc01",
+     "lifecycle@2.8.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.9977987408638
+   },
+   {
+    "id": "q11",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "navigation@2.10.0",
+     "navigation@2.10.0-alpha01",
+     "navigation@2.10.0-rc01",
+     "navigation@2.10.0-alpha03",
+     "navigation@2.10.0-beta01",
+     "navigation@2.10.0-alpha06",
+     "navigation@2.10.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q12",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0",
+     "navigation@2.6.0-beta01",
+     "navigation@2.6.0-rc02",
+     "navigation@2.6.0-alpha03",
+     "navigation@2.6.0-rc01",
+     "navigation@2.6.0-alpha06",
+     "navigation@2.6.0-alpha02",
+     "navigation@2.6.0-alpha05",
+     "navigation@2.6.0-alpha01",
+     "navigation@2.6.0-alpha08"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q13",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "paging@3.4.0",
+     "paging@3.4.0-alpha03",
+     "paging@3.4.0-alpha01",
+     "paging@3.4.0-alpha02",
+     "paging@3.4.0-rc01",
+     "paging@3.4.0-beta01",
+     "paging@3.4.0-alpha04"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q14",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "work@2.11.0",
+     "work@2.11.0-alpha01",
+     "work@2.11.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q15",
+    "type": "range",
+    "split": "dev",
+    "top10": [
+     "work@2.12.0",
+     "work@2.12.0-alpha01",
+     "work@2.12.0-beta01",
+     "work@2.12.0-rc01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q16",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.4.0",
+     "navigation@2.4.0-alpha01",
+     "navigation@2.4.0-alpha02",
+     "navigation@2.7.0-beta02",
+     "navigation@1.0.0-alpha08~2",
+     "navigation@2.6.0-rc02",
+     "navigation@2.7.0-alpha01",
+     "navigation@2.6.0-rc01",
+     "navigation@2.6.0",
+     "navigation@2.7.4"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q17",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "paging@3.0.0-alpha13",
+     "paging@3.0.0-alpha11",
+     "paging@3.2.0-alpha01",
+     "paging@3.0.0-alpha03",
+     "paging@3.2.0-alpha03",
+     "paging@3.5.1",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-beta02",
+     "paging@3.2.0-alpha06",
+     "paging@3.2.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q18",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha02",
+     "paging@3.0.0-alpha09",
+     "paging@3.0.0-alpha04",
+     "paging@3.5.2",
+     "paging@3.1.0-alpha04",
+     "paging@3.0.0-alpha12",
+     "paging@3.3.1",
+     "paging@3.2.0-alpha04",
+     "paging@3.0.0-alpha11"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q19",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.3.0-beta02",
+     "work@2.3.0-alpha03",
+     "work@2.8.0",
+     "work@2.3.1",
+     "work@2.8.0-alpha01",
+     "work@2.7.0-beta01",
+     "work@2.4.0",
+     "work@2.4.0-alpha02",
+     "work@1.0.0-alpha03",
+     "work@2.7.0"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q20",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "paging@3.0.0-alpha02",
+     "paging@3.2.0-alpha03",
+     "paging@3.0.0-alpha12",
+     "paging@3.0.0-alpha01",
+     "paging@3.0.0-alpha10",
+     "paging@3.0.0-alpha03",
+     "paging@3.1.0-alpha03",
+     "paging@3.0.0-alpha11",
+     "paging@3.1.0",
+     "paging@3.0.0-alpha13"
+    ],
+    "empty": false,
+    "top_score": 0.6419997811317444
+   },
+   {
+    "id": "q21",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q22",
+    "type": "negative",
+    "split": "test",
+    "top10": [
+     "work@2.8.0-alpha03",
+     "work@2.11.2",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-rc01",
+     "work@2.4.0",
+     "work@1.0.0-alpha05",
+     "work@2.5.0-beta02",
+     "work@2.3.0-beta02",
+     "work@2.4.0-alpha02"
+    ],
+    "empty": false,
+    "top_score": 0.865809977054596
+   },
+   {
+    "id": "q23",
+    "type": "negative",
+    "split": "dev",
+    "top10": [],
+    "empty": true,
+    "top_score": null
+   },
+   {
+    "id": "q24",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "lifecycle@2.4.0",
+     "lifecycle@2.2.0",
+     "lifecycle@2.4.0-beta01",
+     "lifecycle@2.1.0-alpha01",
+     "lifecycle@2.7.0-alpha03",
+     "lifecycle@2.5.0",
+     "lifecycle@2.7.0",
+     "lifecycle@2.3.0-rc01",
+     "lifecycle@2.2.0-alpha05",
+     "lifecycle@2.6.0"
+    ],
+    "r5": 0.0,
+    "r10": 0.5,
+    "rr": 0.1,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q25",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "work@2.7.0-alpha01",
+     "work@2.7.0",
+     "work@2.7.0-alpha04",
+     "work@2.4.0",
+     "work@2.3.0-beta02",
+     "work@2.3.1",
+     "work@2.5.0",
+     "work@2.2.0-beta01",
+     "work@2.3.0-alpha02",
+     "work@1.0.0-alpha10"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q26",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "navigation@2.6.0-alpha04",
+     "navigation@2.8.1",
+     "navigation@2.4.0",
+     "navigation@2.3.0-alpha05",
+     "navigation@2.4.0-beta02",
+     "navigation@2.3.0-alpha06",
+     "navigation@2.4.1",
+     "navigation@2.6.0",
+     "navigation@2.4.0-rc01",
+     "navigation@2.9.0-alpha08"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q27",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "lifecycle@2.8.2",
+     "lifecycle@2.9.0-alpha02",
+     "lifecycle@2.8.0",
+     "lifecycle@2.8.3",
+     "lifecycle@2.8.7",
+     "lifecycle@2.11.0-beta02",
+     "lifecycle@2.8.0-alpha04",
+     "lifecycle@2.8.0-alpha03",
+     "lifecycle@2.12.0-alpha06",
+     "lifecycle@2.10.0-beta01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q28",
+    "type": "api",
+    "split": "test",
+    "top10": [
+     "work@2.9.0-alpha01",
+     "work@2.9.0",
+     "work@2.8.0-alpha03",
+     "work@2.8.0",
+     "work@2.4.0",
+     "work@2.3.2",
+     "work@1.0.0-alpha03",
+     "work@1.0.0-alpha06",
+     "work@1.0.0-alpha11",
+     "work@1.0.0-beta02"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.3333333333333333,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q29",
+    "type": "api",
+    "split": "dev",
+    "top10": [
+     "navigation@2.9.0-alpha08",
+     "navigation@2.8.9",
+     "navigation@2.9.0-alpha07",
+     "navigation@2.8.8",
+     "navigation@1.0.0-alpha10",
+     "navigation@1.0.0-beta02",
+     "navigation@2.2.0-beta01",
+     "navigation@2.2.1",
+     "navigation@2.2.0",
+     "navigation@2.3.0-alpha01"
+    ],
+    "r5": 1.0,
+    "r10": 1.0,
+    "rr": 0.5,
+    "wrong10": 0.0
+   },
+   {
+    "id": "q30",
+    "type": "range",
+    "split": "test",
+    "top10": [
+     "paging@3.2.0",
+     "paging@3.2.0-beta01",
+     "paging@3.2.0-alpha03",
+     "paging@3.2.0-alpha04",
+     "paging@3.2.0-alpha06",
+     "paging@3.2.0-alpha05",
+     "paging@3.2.0-alpha02",
+     "paging@3.2.0-alpha01",
+     "paging@3.2.0-rc01"
+    ],
+    "r5": 0.6666666666666666,
+    "r10": 1.0,
+    "rr": 1.0,
+    "wrong10": 0.0
+   }
+  ],
+  "p95_s": 2.723297292017378
+ }
+]

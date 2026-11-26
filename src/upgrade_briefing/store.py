@@ -56,6 +56,8 @@ def create_collection(client, name: str):
         vector_config=Configure.Vectors.self_provided(),  # we bring our own vectors
         properties=[
             Property(name="text", data_type=DataType.TEXT),  # searched by BM25 (Step 4)
+            # same text with camelCase/dots split (text.split_identifiers), a second BM25 field
+            Property(name="text_split", data_type=DataType.TEXT),
             Property(name="section", data_type=DataType.TEXT),
             _keyword("chunk_id"),
             _keyword("entry_id"),

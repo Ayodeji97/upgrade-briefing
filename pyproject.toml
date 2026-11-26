@@ -18,6 +18,7 @@ dependencies = [
 [project.scripts]
 briefing-scrape = "upgrade_briefing.ingest.scrape:main"
 briefing-index = "upgrade_briefing.ingest.index:main"
+briefing-eval-retrieval = "upgrade_briefing.evaluation.retrieval:main"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]

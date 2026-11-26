@@ -9,8 +9,8 @@ _Last updated: 2026-11-26_
 | 1 | Scrape release notes for Room, Navigation, Lifecycle, Paging and WorkManager into `data/entries.jsonl` | ✅ done (591 releases) |
 | 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | ✅ done (30 questions) |
 | 3 | Chunk by section, embed, index in Weaviate with metadata | ✅ done (1133 section chunks, 652 fixed) |
-| 4 ⏭ **next** | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | |
-| 5 | Classify chunks (breaking / deprecated / new / fix) | |
+| 4 | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | ✅ done |
+| 5 ⏭ **next** | Classify chunks (breaking / deprecated / new / fix) | |
 | 6 | Generate the briefing with checked citations | |
 | 7 | CLI over `libs.versions.toml` | |
 | 8 | Full evaluation, Phoenix traces, `android docs search` baseline, cost | |
@@ -77,7 +77,36 @@ Daniel should help pick or check the answers: labelling them is where most of th
   would bridge "pauses instead of cancelled" -> "pausing dispatcher" was wrong for bge-base. Step 4 will show whether BM25/hybrid/rerank fix it.
 - The bge query prefix changed little; Step 4 should measure it on the golden set instead of guessing.
 
-## Next: Step 4 (retrieval ablation)
-Write `evaluation/` metrics (Recall@5, MRR over entry_ids, deduplicating chunks to entries) and run on `eval/golden.jsonl`:
-BM25 -> dense -> hybrid -> + version/library filter -> + rerank (bge-reranker-base), plus section vs fixed chunker and prefix on/off.
-Negative questions (q20–q23 style, empty `relevant`) need a separate check (e.g. top score threshold), not Recall.
+## What Step 4 produced
+- `text.py` (`split_identifiers`, camelCase split) + a second BM25 field `text_split` in both collections.
+- `retrieve/search.py`: `search(client, query, method=bm25|dense|rrf|hybrid, k, field=, alpha=, library=, after_key=, upto_key=)`.
+  `rrf_fuse` is our own RRF (k=60). `hybrid` = Weaviate hybrid, relativeScore fusion, BM25 on `text_split`.
+- `retrieve/rerank.py`: bge-reranker-base CrossEncoder over the top 50.
+- `evaluation/metrics.py` (Recall@k, reciprocal rank, wrong-version rate, all over unique entry_ids; tested).
+- `evaluation/retrieval.py`: `uv run briefing-eval-retrieval` (~1 min) -> `eval/results/retrieval.md` + `.json`.
+  Dev = odd question ids (used to pick alpha), test = even ids (reported).
+
+## Step 4 results (25 positive questions; see eval/results/retrieval.md)
+| Config | R@5 dev | R@5 test | R@10 all | MRR | Wrong-ver@10 |
+|---|---|---|---|---|---|
+| BM25 (camelCase split) | 0.68 | 0.63 | 0.73 | 0.62 | 41% |
+| Dense | 0.56 | 0.68 | 0.69 | 0.64 | 39% |
+| Hybrid alpha=0.5 (picked on dev) | 0.79 | 0.63 | 0.77 | 0.71 | 37% |
+| Hybrid + library/version filter | 0.91 | 0.83 | 0.91 | 0.80 | 0% |
+| + rerank | 0.92 | 0.89 | 0.98 | 0.84 | 0% (p95 2.7 s) |
+
+Lessons:
+- **The metadata filter is the biggest single win** (test R@5 0.63 -> 0.83). Without it ~40% of the top 10 is the wrong library/version.
+- camelCase splitting helps BM25 a little (MRR 0.56 -> 0.62). Section chunks beat fixed windows clearly (dense R@10 0.69 vs 0.60).
+- The bge query prefix: mixed (better on dev, slightly worse on test). Kept on.
+- Hybrid without the filter: better on dev than on test. Test has only 12 questions; one question moves R@5 by ~0.08, so small gaps are noise.
+- Reranking helped overall and fixed q17 (6 entries mention getRefreshKey; reranker put the right one first), but it
+  **hurt q07** (MRR 0.50 -> 0.17): it prefers old launchWhenCreated bug fixes that contain the literal words.
+- q24 (paraphrase, no API name) fails in every config. Known hard case; leave it, it is honest.
+- **Negatives:** the filter returns *nothing* for q21 (Room 2.9.0 doesn't exist) and q23 (Hilt), a free correct refusal.
+  For false-premise questions (q10, q20, q22) the reranker's top score (0.64–1.00) sits inside the positives' range
+  (0.17–1.00), so a score threshold can't refuse them. Refusal must come from generation (Step 6): "does the text actually say this?"
+
+## Next: Step 5 (classify chunks: breaking / deprecated / new / fix)
+Learning guide Stage 7. Section titles are unreliable (q09: a minSdk change filed under Bug Fixes), so classify each chunk/bullet.
+Start with rules (keywords), then the Groq LLM on a labelled sample, cache LLM calls, compare.

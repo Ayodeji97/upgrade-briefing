@@ -13,6 +13,7 @@ from weaviate.util import generate_uuid5
 
 from upgrade_briefing.embed import embed_passages
 from upgrade_briefing.ingest.chunk import build_chunks, load_entries, to_dict
+from upgrade_briefing.text import split_identifiers
 from upgrade_briefing.store import COLLECTIONS, connect, create_collection
 
 
@@ -27,6 +28,7 @@ def index_chunks(client, chunker: str, entries: list[dict]) -> int:
         for chunk, vector in zip(chunks, vectors):
             props = to_dict(chunk)
             props["date"] = props["date"] or ""
+            props["text_split"] = split_identifiers(chunk.text)
             # uuid5 from chunk_id: the same chunk always gets the same id
             batch.add_object(properties=props, vector=vector, uuid=generate_uuid5(chunk.chunk_id))
     if collection.batch.failed_objects:
