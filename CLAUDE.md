@@ -29,8 +29,9 @@ See `HANDOVER.md`. Keep it up to date at the end of every step.
 - `src/upgrade_briefing/ingest/scrape.py`: Step 1 scraper. Run it with `uv run briefing-scrape`.
 - `src/upgrade_briefing/ingest/chunk.py` + `ingest/index.py`: Step 3 chunking and indexing (`uv run briefing-index`).
 - `src/upgrade_briefing/embed.py` (bge vectors) and `store.py` (embedded Weaviate connection + collections).
-- `src/upgrade_briefing/retrieve/dense.py`: dense search with library/version filters.
-- `src/upgrade_briefing/{classify,generate,evaluation,app}/`: later steps (empty for now).
+- `src/upgrade_briefing/retrieve/`: `dense.py`, `search.py` (bm25 / dense / rrf / hybrid behind `search()`), `rerank.py`.
+- `src/upgrade_briefing/evaluation/`: `metrics.py` and `retrieval.py` (`uv run briefing-eval-retrieval`, dev = odd ids, test = even ids).
+- `src/upgrade_briefing/{classify,generate,app}/`: later steps (empty for now).
 - `data/entries.jsonl`: one release per line (committed). `data/raw/`: cached HTML (ignored).
 - `eval/`: golden set and results. `traces/`: Phoenix exports (ignored). `docs/learning-guide.md`: concept guide, stages 0–11.
 
