@@ -1,0 +1,633 @@
+{
+  "results": {
+    "section": {
+      "dev": {
+        "accuracy": 0.6470588235294118,
+        "macro_f1": 0.5151332327802916,
+        "per_label": {
+          "breaking": {
+            "precision": 0.875,
+            "recall": 0.7777777777777778,
+            "f1": 0.823529411764706,
+            "support": 9
+          },
+          "deprecated": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 2
+          },
+          "new": {
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6666666666666665,
+            "support": 10
+          },
+          "fix": {
+            "precision": 0.7777777777777778,
+            "recall": 0.7777777777777778,
+            "f1": 0.7777777777777778,
+            "support": 9
+          },
+          "other": {
+            "precision": 0.2222222222222222,
+            "recall": 0.5,
+            "f1": 0.30769230769230765,
+            "support": 4
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.5588235294117647,
+        "macro_f1": 0.4709595959595959,
+        "per_label": {
+          "breaking": {
+            "precision": 0.6666666666666666,
+            "recall": 0.3333333333333333,
+            "f1": 0.4444444444444444,
+            "support": 12
+          },
+          "deprecated": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 3
+          },
+          "new": {
+            "precision": 0.47619047619047616,
+            "recall": 0.8333333333333334,
+            "f1": 0.6060606060606061,
+            "support": 12
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 0.7142857142857143,
+            "f1": 0.8333333333333333,
+            "support": 7
+          },
+          "other": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      }
+    },
+    "rules": {
+      "dev": {
+        "accuracy": 0.8529411764705882,
+        "macro_f1": 0.8527777777777779,
+        "per_label": {
+          "breaking": {
+            "precision": 0.8888888888888888,
+            "recall": 0.8888888888888888,
+            "f1": 0.8888888888888888,
+            "support": 9
+          },
+          "deprecated": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "new": {
+            "precision": 0.9,
+            "recall": 0.9,
+            "f1": 0.9,
+            "support": 10
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 0.7777777777777778,
+            "f1": 0.8750000000000001,
+            "support": 9
+          },
+          "other": {
+            "precision": 0.5,
+            "recall": 0.75,
+            "f1": 0.6,
+            "support": 4
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.7352941176470589,
+        "macro_f1": 0.7916458541458542,
+        "per_label": {
+          "breaking": {
+            "precision": 0.7,
+            "recall": 0.5833333333333334,
+            "f1": 0.6363636363636365,
+            "support": 12
+          },
+          "deprecated": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "support": 3
+          },
+          "new": {
+            "precision": 0.75,
+            "recall": 0.75,
+            "f1": 0.75,
+            "support": 12
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 0.8571428571428571,
+            "f1": 0.923076923076923,
+            "support": 7
+          },
+          "other": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      }
+    },
+    "llm": {
+      "dev": {
+        "accuracy": 0.9705882352941176,
+        "macro_f1": 0.9609022556390977,
+        "per_label": {
+          "breaking": {
+            "precision": 0.9,
+            "recall": 1.0,
+            "f1": 0.9473684210526316,
+            "support": 9
+          },
+          "deprecated": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "new": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 9
+          },
+          "other": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "support": 4
+          }
+        }
+      },
+      "test": {
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "per_label": {
+          "breaking": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 12
+          },
+          "deprecated": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 3
+          },
+          "new": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 12
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          },
+          "other": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      }
+    },
+    "hybrid": {
+      "dev": {
+        "accuracy": 0.9705882352941176,
+        "macro_f1": 0.9609022556390977,
+        "per_label": {
+          "breaking": {
+            "precision": 0.9,
+            "recall": 1.0,
+            "f1": 0.9473684210526316,
+            "support": 9
+          },
+          "deprecated": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 2
+          },
+          "new": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 10
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 9
+          },
+          "other": {
+            "precision": 1.0,
+            "recall": 0.75,
+            "f1": 0.8571428571428571,
+            "support": 4
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.9117647058823529,
+        "macro_f1": 0.9115584415584415,
+        "per_label": {
+          "breaking": {
+            "precision": 0.8461538461538461,
+            "recall": 0.9166666666666666,
+            "f1": 0.8799999999999999,
+            "support": 12
+          },
+          "deprecated": {
+            "precision": 0.75,
+            "recall": 1.0,
+            "f1": 0.8571428571428571,
+            "support": 3
+          },
+          "new": {
+            "precision": 1.0,
+            "recall": 0.8333333333333334,
+            "f1": 0.9090909090909091,
+            "support": 12
+          },
+          "fix": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": 7
+          },
+          "other": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "support": 0
+          }
+        }
+      }
+    }
+  },
+  "hybrid_llm_share": 0.36764705882352944,
+  "errors": {
+    "section": [
+      {
+        "id": "c03",
+        "gold": "breaking",
+        "pred": "other",
+        "section": "Important Changes Since 3.0.0",
+        "text": "Behavior changes to LoadState: endOfPaginationReached is now always false for LoadType.REFRESH for both PagingSource and RemoteMediator LoadStates from Paging n"
+      },
+      {
+        "id": "c05",
+        "gold": "new",
+        "pred": "other",
+        "section": "Lifecycle Kotlin Multiplatform Compatibility",
+        "text": "lifecycle-runtime moves most APIs to common and supports jvm and iOS in addition to Android."
+      },
+      {
+        "id": "c14",
+        "gold": "deprecated",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Fully deprecate dataRefreshFlow / Listener methods with a replaceWith clause. (I6e2dd)"
+      },
+      {
+        "id": "c15",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "New Features",
+        "text": "WorkManager now uses androidx.startup to initialize WorkManager. Previously, this was being done by androidx.work.impl.WorkManagerInitializer. (aosp/1608813) If"
+      },
+      {
+        "id": "c16",
+        "gold": "new",
+        "pred": "breaking",
+        "section": "Breaking API Changes",
+        "text": "Added Operation.await() and ListenableFuture.await() Kotlin extension methods."
+      },
+      {
+        "id": "c24",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "All NavController navigate overloads are now annotated with @MainThread to ensure that they are called on the main thread. (I2c0b0, b/263427111)"
+      },
+      {
+        "id": "c26",
+        "gold": "fix",
+        "pred": "breaking",
+        "section": "Behavior Changes",
+        "text": "Main dispatcher is no longer required to run asSnapshot Paging tests. Setting it no longer makes any changes to the test behavior. (Ie56ea)"
+      },
+      {
+        "id": "c27",
+        "gold": "fix",
+        "pred": "breaking",
+        "section": "Behavior Changes",
+        "text": "Navigation Compose's NavHost now sets the graph as part of the first composition. (Ieb7be)"
+      },
+      {
+        "id": "c33",
+        "gold": "deprecated",
+        "pred": "other",
+        "section": "Important Changes Since 2.7.0",
+        "text": "Deprecated LiveDataReactiveStreams.toPublisher(lifecycleOwner, liveData) in favor of LiveData.toPublisher(lifecycleOwner)."
+      },
+      {
+        "id": "c35",
+        "gold": "fix",
+        "pred": "other",
+        "section": "Kotlin Multiplatform Compatibility",
+        "text": "viewModelScope will fallback to an EmptyCoroutineContext in platforms where Dispatchers.Main is not available (e.g., Linux)."
+      },
+      {
+        "id": "c36",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "All of the default NavType arrays (IntArrayType, LongArrayType, FloatArrayType, BoolArrayType, and StringArrayType) are now of type CollectionNavType (Idcf79, b"
+      },
+      {
+        "id": "c40",
+        "gold": "fix",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Fixed a source compatibility issue to re-allow @Query in property getters. (I0a09b)"
+      },
+      {
+        "id": "c41",
+        "gold": "other",
+        "pred": "fix",
+        "section": "Bug Fixes",
+        "text": "From Lifecycle 2.4.1: Updated lifecycle-process to depend on Startup 1.1.1 to ensure that fixes that prevent ProcessLifecycleInitializer from throwing a Startup"
+      },
+      {
+        "id": "c42",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "New Features",
+        "text": "Room now only supports newer Paging APIs (alpha-4+), dropping support for the deprecated LivePagedListProvider. To use the new Room alpha, you\u2019ll need to use pa"
+      },
+      {
+        "id": "c46",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "The deprecated LifecycleActivity and LifecycleFragment have now been removed - please use FragmentActivity, AppCompatActivity or support Fragment."
+      },
+      {
+        "id": "c48",
+        "gold": "deprecated",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Configuration.withExecutor() is deprecated. Use Configuration.setExecutor() instead."
+      },
+      {
+        "id": "c50",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "NavHostController now contains a enableOnBackPressed(boolean) method that replaces the NavHostOnBackPressedManager class that was previously returned by setHost"
+      },
+      {
+        "id": "c51",
+        "gold": "new",
+        "pred": "other",
+        "section": "Kotlin Multiplatform",
+        "text": "The androidx.compose.ui.platform.LocalLifecycleOwner is now available in the common source set."
+      },
+      {
+        "id": "c54",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Update the minSDK from API 21 to API 23 (Ibdfca, b/380448311, b/435705964, b/435705223)"
+      },
+      {
+        "id": "c55",
+        "gold": "new",
+        "pred": "other",
+        "section": "Important Changes Since 2.8.0",
+        "text": "Add getMutableStateFlow to SavedStateHandle to return a MutableStateFlow. This new function is key-exclusive and cannot be used with getLiveData. An exception w"
+      },
+      {
+        "id": "c58",
+        "gold": "breaking",
+        "pred": "other",
+        "section": "Important Changes Since 2.9.0",
+        "text": "handleDeepLink was modified to ensure only recognized deep links are handled while all others will be ignored. If this causes an error in your app, consider the"
+      },
+      {
+        "id": "c60",
+        "gold": "deprecated",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Deprecated LiveDataReactiveStreams.toPublisher(lifecycleOwner, liveData) in favor of LiveData.toPublisher(lifecycleOwner). (Iabe29, b/262623005)"
+      },
+      {
+        "id": "c61",
+        "gold": "new",
+        "pred": "other",
+        "section": "External Contribution",
+        "text": "Adds a new Lint issue for calling Lifecycle::currentState in composition, instead suggesting using currentStateAsalue().value to ensure that changes in the Life"
+      },
+      {
+        "id": "c63",
+        "gold": "deprecated",
+        "pred": "fix",
+        "section": "Bug Fixes",
+        "text": "Deprecated setProgress() in RxWorker because it previously returned a Single<Void> which is an impossible type. Added a new API setCompletableProgress() which r"
+      },
+      {
+        "id": "c64",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Async PagingData Guava-based operators now accept an Executor as a param, to control execution context. (Id4372)"
+      },
+      {
+        "id": "c66",
+        "gold": "new",
+        "pred": "other",
+        "section": "Important Changes Since 2.6.0",
+        "text": "Kotlin Multiplatform (KMP) Support: In this release, Room has been refactored to become a Kotlin Multiplatform (KMP) library. Current supported platforms are An"
+      },
+      {
+        "id": "c67",
+        "gold": "other",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "All files from the lifecycle-livedata-ktx modules have been moved into the main lifecycle-livedata module. (I10c6f, b/274800183)"
+      }
+    ],
+    "rules": [
+      {
+        "id": "c03",
+        "gold": "breaking",
+        "pred": "other",
+        "section": "Important Changes Since 3.0.0",
+        "text": "Behavior changes to LoadState: endOfPaginationReached is now always false for LoadType.REFRESH for both PagingSource and RemoteMediator LoadStates from Paging n"
+      },
+      {
+        "id": "c05",
+        "gold": "new",
+        "pred": "other",
+        "section": "Lifecycle Kotlin Multiplatform Compatibility",
+        "text": "lifecycle-runtime moves most APIs to common and supports jvm and iOS in addition to Android."
+      },
+      {
+        "id": "c06",
+        "gold": "new",
+        "pred": "breaking",
+        "section": "API Changes",
+        "text": "visibleEntries is no longer experimental. (I4829f, b/225394514)"
+      },
+      {
+        "id": "c10",
+        "gold": "new",
+        "pred": "breaking",
+        "section": "API Changes",
+        "text": "Add rememberViewModelStoreProvider to allow creating scoped ViewModelStore instances in Compose. This function links a child store to a parent owner, ensuring V"
+      },
+      {
+        "id": "c26",
+        "gold": "fix",
+        "pred": "breaking",
+        "section": "Behavior Changes",
+        "text": "Main dispatcher is no longer required to run asSnapshot Paging tests. Setting it no longer makes any changes to the test behavior. (Ie56ea)"
+      },
+      {
+        "id": "c27",
+        "gold": "fix",
+        "pred": "breaking",
+        "section": "Behavior Changes",
+        "text": "Navigation Compose's NavHost now sets the graph as part of the first composition. (Ieb7be)"
+      },
+      {
+        "id": "c35",
+        "gold": "fix",
+        "pred": "other",
+        "section": "Kotlin Multiplatform Compatibility",
+        "text": "viewModelScope will fallback to an EmptyCoroutineContext in platforms where Dispatchers.Main is not available (e.g., Linux)."
+      },
+      {
+        "id": "c36",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "All of the default NavType arrays (IntArrayType, LongArrayType, FloatArrayType, BoolArrayType, and StringArrayType) are now of type CollectionNavType (Idcf79, b"
+      },
+      {
+        "id": "c42",
+        "gold": "breaking",
+        "pred": "deprecated",
+        "section": "New Features",
+        "text": "Room now only supports newer Paging APIs (alpha-4+), dropping support for the deprecated LivePagedListProvider. To use the new Room alpha, you\u2019ll need to use pa"
+      },
+      {
+        "id": "c50",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "NavHostController now contains a enableOnBackPressed(boolean) method that replaces the NavHostOnBackPressedManager class that was previously returned by setHost"
+      },
+      {
+        "id": "c58",
+        "gold": "breaking",
+        "pred": "other",
+        "section": "Important Changes Since 2.9.0",
+        "text": "handleDeepLink was modified to ensure only recognized deep links are handled while all others will be ignored. If this causes an error in your app, consider the"
+      },
+      {
+        "id": "c64",
+        "gold": "breaking",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "Async PagingData Guava-based operators now accept an Executor as a param, to control execution context. (Id4372)"
+      },
+      {
+        "id": "c66",
+        "gold": "new",
+        "pred": "other",
+        "section": "Important Changes Since 2.6.0",
+        "text": "Kotlin Multiplatform (KMP) Support: In this release, Room has been refactored to become a Kotlin Multiplatform (KMP) library. Current supported platforms are An"
+      },
+      {
+        "id": "c67",
+        "gold": "other",
+        "pred": "new",
+        "section": "API Changes",
+        "text": "All files from the lifecycle-livedata-ktx modules have been moved into the main lifecycle-livedata module. (I10c6f, b/274800183)"
+      }
+    ],
+    "llm": [
+      {
+        "id": "c67",
+        "gold": "other",
+        "pred": "breaking",
+        "section": "API Changes",
+        "text": "All files from the lifecycle-livedata-ktx modules have been moved into the main lifecycle-livedata module. (I10c6f, b/274800183)"
+      }
+    ],
+    "hybrid": [
+      {
+        "id": "c06",
+        "gold": "new",
+        "pred": "breaking",
+        "section": "API Changes",
+        "text": "visibleEntries is no longer experimental. (I4829f, b/225394514)"
+      },
+      {
+        "id": "c10",
+        "gold": "new",
+        "pred": "breaking",
+        "section": "API Changes",
+        "text": "Add rememberViewModelStoreProvider to allow creating scoped ViewModelStore instances in Compose. This function links a child store to a parent owner, ensuring V"
+      },
+      {
+        "id": "c42",
+        "gold": "breaking",
+        "pred": "deprecated",
+        "section": "New Features",
+        "text": "Room now only supports newer Paging APIs (alpha-4+), dropping support for the deprecated LivePagedListProvider. To use the new Room alpha, you\u2019ll need to use pa"
+      },
+      {
+        "id": "c67",
+        "gold": "other",
+        "pred": "breaking",
+        "section": "API Changes",
+        "text": "All files from the lifecycle-livedata-ktx modules have been moved into the main lifecycle-livedata module. (I10c6f, b/274800183)"
+      }
+    ]
+  }
+}

@@ -23,3 +23,6 @@ traces/*
 
 .pytest_cache/
 .DS_Store
+
+# LLM answer cache (re-create by re-running; costs Groq calls)
+data/cache/

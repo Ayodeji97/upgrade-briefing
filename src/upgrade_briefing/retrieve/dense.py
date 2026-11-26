@@ -13,8 +13,15 @@ from upgrade_briefing.embed import embed_query
 from upgrade_briefing.store import COLLECTIONS
 
 
-def build_filter(library: str | None = None, after_key: int | None = None, upto_key: int | None = None):
+def build_filter(
+    library: str | None = None,
+    after_key: int | None = None,
+    upto_key: int | None = None,
+    labels: list[str] | None = None,  # Step 5: keep chunks holding at least one of these labels
+):
     parts = []
+    if labels:
+        parts.append(Filter.by_property("labels").contains_any(labels))
     if library:
         parts.append(Filter.by_property("library").equal(library))
     if after_key is not None:

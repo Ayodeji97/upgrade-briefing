@@ -19,7 +19,7 @@ from __future__ import annotations
 
 import json
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, field
 from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -54,6 +54,9 @@ class Chunk:
     text: str  # what gets embedded and searched
     url: str
     chunker: str  # "section" | "fixed"
+    # Bullets in this chunk, as classify.items ids ("room@2.7.0#1.3"). Section chunks only:
+    # a fixed window cuts through bullets, so it has none. Step 5 turns these into `labels`.
+    item_ids: list[str] = field(default_factory=list)
 
 
 def load_entries(path: Path = ENTRIES_FILE) -> list[dict]:
@@ -105,6 +108,7 @@ def section_chunks(entry: dict, max_items: int = MAX_ITEMS) -> list[Chunk]:
                     section=section["title"],
                     text=text,
                     chunker="section",
+                    item_ids=[f"{entry['entry_id']}#{s_idx}.{i}" for i in range(start, start + len(group))],
                     **_meta(entry),
                 )
             )

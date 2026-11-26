@@ -44,3 +44,11 @@ def test_fixed_windows_ignore_structure():
     chunks = fixed_chunks(ENTRY, window=4)
     assert chunks[0].text == "Change 0 Change 1"
     assert all(c.section == "" and c.chunker == "fixed" for c in chunks)
+
+
+def test_section_chunks_record_their_bullet_ids():
+    chunks = section_chunks(ENTRY)
+    # API Changes is section index 1; 7 bullets split 5 + 2
+    assert chunks[0].item_ids == [f"room@2.7.0-alpha01#1.{i}" for i in range(5)]
+    assert chunks[1].item_ids == ["room@2.7.0-alpha01#1.5", "room@2.7.0-alpha01#1.6"]
+    assert chunks[2].item_ids == ["room@2.7.0-alpha01#2.0"]

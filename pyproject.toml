@@ -9,6 +9,7 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.15.0",
+    "groq>=1.7.0",
     "python-dotenv>=1.2.4",
     "requests>=2.34.2",
     "sentence-transformers>=6.3.0",
@@ -19,6 +20,8 @@ dependencies = [
 briefing-scrape = "upgrade_briefing.ingest.scrape:main"
 briefing-index = "upgrade_briefing.ingest.index:main"
 briefing-eval-retrieval = "upgrade_briefing.evaluation.retrieval:main"
+briefing-eval-classify = "upgrade_briefing.evaluation.classify:main"
+briefing-classify = "upgrade_briefing.classify.run:main"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]

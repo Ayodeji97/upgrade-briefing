@@ -68,5 +68,10 @@ def create_collection(client, name: str):
             _keyword("date"),
             _keyword("url"),
             _keyword("chunker"),
+            # Step 5: the set of its bullets' labels (breaking/deprecated/new/fix/other), for filtering
+            Property(name="labels", data_type=DataType.TEXT_ARRAY, tokenization=Tokenization.FIELD,
+                     index_searchable=False),
+            Property(name="item_ids", data_type=DataType.TEXT_ARRAY, tokenization=Tokenization.FIELD,
+                     index_searchable=False),
         ],
     )
