@@ -7,7 +7,7 @@ _Last updated: 2026-11-26_
 |---|---|---|
 | 0 | Repo setup (uv, git, layout, docs) | ✅ done |
 | 1 | Scrape release notes for Room, Navigation, Lifecycle, Paging and WorkManager into `data/entries.jsonl` | ✅ done (591 releases) |
-| 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | 🔶 in progress (20/30, batch 2 awaiting Daniel's review) |
+| 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | 🔶 30/30 drafted; batch 3 (q21–q30) awaiting Daniel's review |
 | 3 | Chunk by section, embed, index in Weaviate with metadata | |
 | 4 | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | |
 | 5 | Classify chunks (breaking / deprecated / new / fix) | |
@@ -32,7 +32,8 @@ _Last updated: 2026-11-26_
 - Section titles are free text, so "breaking" is not a label on the page. Step 5 (classification) exists for this reason.
 
 ## Step 2 progress
-- `eval/golden.jsonl` has q01–q20 (9 range, 9 api, 2 negative). Batch 1 (q01–q10) reviewed by Daniel; batch 2 (q11–q20) drafted, not yet reviewed.
+- `eval/golden.jsonl` has q01–q30 (10 range, 15 api, 5 negative). Batches 1–2 accepted by Daniel; batch 3 (q21–q30) drafted, not yet reviewed.
+- Open question (q29): do back-merged copies ("From Navigation 2.8.8: ..." in a later alpha) count as relevant? Currently left out.
 - Each line has a `notes` field explaining the labels.
 - **Labelling rules agreed with Daniel:**
   - An entry is relevant if it contains a line that answers the question.
@@ -40,7 +41,6 @@ _Last updated: 2026-11-26_
   - API questions ("when was X deprecated"): the pre-release where it first appeared counts, plus the stable summary if it repeats it.
   - Minor behaviour changes (e.g. room 2.7.0-alpha12 destructive migration drops views) are not "breaking".
   - Related-but-different facts are left out (e.g. lifecycle-compiler deprecation is not the @OnLifecycleEvent answer).
-- Batch 3 plan (q21–q30): ~3 more negatives (incl. a version that doesn't exist), paraphrased questions with no API name, and questions whose answer is in a non-obvious section.
 
 ## Step 2 (golden set): original plan
 Write about 30 questions *before* any retrieval code exists, so that the evaluation stays honest. Mix them like this:
@@ -56,3 +56,7 @@ Daniel should help pick or check the answers: labelling them is where most of th
 ## Not done yet / decisions pending
 - GitHub remote: https://github.com/Ayodeji97/upgrade-briefing (`main` pushed).
 - `.env` exists locally (Groq key copied from the course `.env`). It is git-ignored.
+
+## Next
+1. Daniel reviews batch 3 (q21–q30) and the q29 "copies" question; then mark Step 2 ✅.
+2. Step 3: chunk each entry by section, embed with bge-base (vectors computed in Python), index in embedded Weaviate with `library`, `version_key`, `channel`, `section_title`, `entry_id` metadata.
