@@ -41,5 +41,5 @@ Planned format, one JSON object per line:
 Daniel should help pick or check the answers: labelling them is where most of the learning happens.
 
 ## Not done yet / decisions pending
-- No GitHub remote yet. Create it with `gh repo create upgrade-briefing --public --source . --push` when ready.
+- GitHub remote: https://github.com/Ayodeji97/upgrade-briefing (`main` pushed).
 - `.env` exists locally (Groq key copied from the course `.env`). It is git-ignored.
