@@ -1,0 +1,25 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Downloaded HTML (re-create with `uv run briefing-scrape --refresh`)
+data/raw/
+
+# Local vector DB, model caches and traces
+data/weaviate/
+.models/
+traces/*
+!traces/.gitkeep
+
+.pytest_cache/
+.DS_Store
