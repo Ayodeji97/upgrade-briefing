@@ -7,7 +7,7 @@ _Last updated: 2026-11-26_
 |---|---|---|
 | 0 | Repo setup (uv, git, layout, docs) | ✅ done |
 | 1 | Scrape release notes for Room, Navigation, Lifecycle, Paging and WorkManager into `data/entries.jsonl` | ✅ done (591 releases) |
-| 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | ⏭ **next** |
+| 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | 🔶 in progress (20/30, batch 2 awaiting Daniel's review) |
 | 3 | Chunk by section, embed, index in Weaviate with metadata | |
 | 4 | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | |
 | 5 | Classify chunks (breaking / deprecated / new / fix) | |
@@ -24,12 +24,25 @@ _Last updated: 2026-11-26_
   Stable releases often have an "Important changes since X.Y.0" section, which summarises the whole alpha-to-rc cycle.
 
 ## Data quirks to remember
+- The scraper drops HTML tables. Two entries say "the table below" with no table: lifecycle@2.6.0 and navigation@2.9.0-alpha04. Fix in Step 3 if it matters.
+- The paging 1.0.0-* entries are actually Paging *Compose* 1.0.0 releases (LazyPagingItems), listed on the same page.
 - The source pages repeat some version headings (room 2.5.0, navigation 1.0.0-alpha08, paging 1.0.0-rc01).
   Both copies are kept; the second gets `~2` in its `entry_id`.
 - 2 very old entries have no date (room 1.1.1-rc01, paging 1.0.0-rc01). This is harmless.
 - Section titles are free text, so "breaking" is not a label on the page. Step 5 (classification) exists for this reason.
 
-## Next session: Step 2 (golden set)
+## Step 2 progress
+- `eval/golden.jsonl` has q01–q20 (9 range, 9 api, 2 negative). Batch 1 (q01–q10) reviewed by Daniel; batch 2 (q11–q20) drafted, not yet reviewed.
+- Each line has a `notes` field explaining the labels.
+- **Labelling rules agreed with Daniel:**
+  - An entry is relevant if it contains a line that answers the question.
+  - Range questions (stable → stable): the stable entry counts; an alpha/beta/rc entry counts *only* if it adds something the stable "Important changes" summary leaves out.
+  - API questions ("when was X deprecated"): the pre-release where it first appeared counts, plus the stable summary if it repeats it.
+  - Minor behaviour changes (e.g. room 2.7.0-alpha12 destructive migration drops views) are not "breaking".
+  - Related-but-different facts are left out (e.g. lifecycle-compiler deprecation is not the @OnLifecycleEvent answer).
+- Batch 3 plan (q21–q30): ~3 more negatives (incl. a version that doesn't exist), paraphrased questions with no API name, and questions whose answer is in a non-obvious section.
+
+## Step 2 (golden set): original plan
 Write about 30 questions *before* any retrieval code exists, so that the evaluation stays honest. Mix them like this:
 - version-range questions ("room 2.6.1 → 2.7.0: what breaks?")
 - specific API questions ("when was X deprecated in Lifecycle?")
