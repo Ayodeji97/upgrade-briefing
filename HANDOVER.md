@@ -10,8 +10,8 @@ _Last updated: 2026-11-26_
 | 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | ✅ done (30 questions) |
 | 3 | Chunk by section, embed, index in Weaviate with metadata | ✅ done (1133 section chunks, 652 fixed) |
 | 4 | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | ✅ done |
-| 5 ⏭ **next** | Classify chunks (breaking / deprecated / new / fix) | |
-| 6 | Generate the briefing with checked citations | |
+| 5 | Classify chunks (breaking / deprecated / new / fix) | 🟡 code + eval done; full-corpus labels finishing (see below) |
+| 6 ⏭ **next** | Generate the briefing with checked citations | |
 | 7 | CLI over `libs.versions.toml` | |
 | 8 | Full evaluation, Phoenix traces, `android docs search` baseline, cost | |
 | 9 | README, diagram, demo GIF, publish | |
@@ -107,6 +107,42 @@ Lessons:
   For false-premise questions (q10, q20, q22) the reranker's top score (0.64–1.00) sits inside the positives' range
   (0.17–1.00), so a score threshold can't refuse them. Refusal must come from generation (Step 6): "does the text actually say this?"
 
-## Next: Step 5 (classify chunks: breaking / deprecated / new / fix)
-Learning guide Stage 7. Section titles are unreliable (q09: a minSdk change filed under Bug Fixes), so classify each chunk/bullet.
-Start with rules (keywords), then the Groq LLM on a labelled sample, cache LLM calls, compare.
+## What Step 5 produced
+- Unit = one bullet (`classify/items.py`, id `room@2.7.0#1.3` = section 1, bullet 3). A chunk's `labels`
+  = the set of its bullets' labels. Labels, priority order: breaking > deprecated > new > fix > other.
+- `eval/classify_labels.jsonl`: 68 hand-labelled bullets, stratified (over-samples breaking/behaviour/deprecat).
+  Dev = odd ids, test = even. **Labelling rules agreed with Daniel:** minor behaviour change needing no action = fix;
+  a changed default the app could notice = breaking; annotation that makes lint fail (@MainThread) = breaking;
+  signature change between alphas = breaking (stable-to-stable relevance is decided later, as in the golden set).
+- `classify/rules.py` (keywords, then section title), `classify/llm.py` (Groq, 20 bullets per call, per-bullet cache in
+  `data/cache/classify/`, git-ignored, `PROMPT_VERSION` = v2), `evaluation/classify.py` (`uv run briefing-eval-classify`).
+- `classify/run.py`: `uv run briefing-classify` labels all 2,347 bullets -> `data/labels.jsonl` (commit it).
+  `briefing-index` then stores `labels` + `item_ids` per chunk; `build_filter(labels=["breaking", ...])` filters on them.
+
+## Step 5 results (eval/results/classify.md)
+| Method | Acc dev | Acc test | Breaking recall test | Breaking precision test |
+|---|---|---|---|---|
+| Section title only | 0.65 | 0.56 | 0.33 | 0.67 |
+| Rules | 0.85 | 0.74 | 0.58 | 0.70 |
+| LLM (Groq qwen3.8-27b) | 0.97 | 1.00 | 1.00 | 1.00 |
+| Hybrid (rule if keyword fired, else LLM) | 0.97 | 0.91 | 0.92 | 0.85 |
+
+Lessons:
+- Section titles are a weak signal here (0.56), the opposite of what the learning guide assumed: breaking changes
+  sit under "New Features", deprecations under "Bug Fixes", plain additions under "Breaking API Changes".
+- The LLM beat rules clearly. The hybrid is worse than the LLM alone because "confident" keyword rules are wrong
+  sometimes (e.g. "no longer experimental" matched a breaking pattern; seen on test, so deliberately NOT fixed).
+- Since classification runs once at ingestion and is cached, the LLM's cost is one-off; saving calls with rules isn't worth it.
+- Test is only 34 bullets, and the prompt was revised once on dev (v2: behaviour change = breaking vs fix).
+- **Groq free tier: 200k tokens/day (rolling) and 8k tokens/min.** One full labelling run used nearly the whole day's budget.
+
+## Open item when this session ended (check first!)
+- If `data/labels.jsonl` does not exist: run `uv run briefing-classify` (resumes from cache; ~200 bullets were left,
+  slowed by the daily token limit), then `DISK_USE_READONLY_PERCENTAGE=99 uv run briefing-index`, then check that
+  `search(..., labels=["breaking"])` returns only breaking chunks, then commit `data/labels.jsonl`.
+- Re-run `uv run briefing-eval-retrieval` to confirm Step 4 numbers are unchanged (chunk text did not change).
+
+## Next: Step 6 (generate the briefing with checked citations)
+Learning guide Stage 8. Retrieve with library + version filter (+ `labels` filter per briefing section), rerank,
+generate per label with citations to entry_id/url, then check each citation actually supports its claim.
+False-premise questions (q10, q20, q22) must be refused at this step.
