@@ -27,7 +27,10 @@ See `HANDOVER.md`. Keep it up to date at the end of every step.
 ## Layout
 - `src/upgrade_briefing/versions.py`: version parsing and the sortable `version_key` (alpha=1, beta=2, rc=3, stable=4).
 - `src/upgrade_briefing/ingest/scrape.py`: Step 1 scraper. Run it with `uv run briefing-scrape`.
-- `src/upgrade_briefing/{retrieve,classify,generate,evaluation,app}/`: later steps (empty for now).
+- `src/upgrade_briefing/ingest/chunk.py` + `ingest/index.py`: Step 3 chunking and indexing (`uv run briefing-index`).
+- `src/upgrade_briefing/embed.py` (bge vectors) and `store.py` (embedded Weaviate connection + collections).
+- `src/upgrade_briefing/retrieve/dense.py`: dense search with library/version filters.
+- `src/upgrade_briefing/{classify,generate,evaluation,app}/`: later steps (empty for now).
 - `data/entries.jsonl`: one release per line (committed). `data/raw/`: cached HTML (ignored).
 - `eval/`: golden set and results. `traces/`: Phoenix exports (ignored). `docs/learning-guide.md`: concept guide, stages 0–11.
 

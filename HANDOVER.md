@@ -7,9 +7,9 @@ _Last updated: 2026-11-26_
 |---|---|---|
 | 0 | Repo setup (uv, git, layout, docs) | ✅ done |
 | 1 | Scrape release notes for Room, Navigation, Lifecycle, Paging and WorkManager into `data/entries.jsonl` | ✅ done (591 releases) |
-| 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | 🔶 30/30 drafted; batch 3 (q21–q30) awaiting Daniel's review |
-| 3 | Chunk by section, embed, index in Weaviate with metadata | |
-| 4 | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | |
+| 2 | Golden set: about 30 questions with the correct `entry_id`s, in `eval/golden.jsonl` | ✅ done (30 questions) |
+| 3 | Chunk by section, embed, index in Weaviate with metadata | ✅ done (1133 section chunks, 652 fixed) |
+| 4 ⏭ **next** | Retrieval ablation: BM25 → semantic → hybrid → version filter → rerank (Recall@5, MRR) | |
 | 5 | Classify chunks (breaking / deprecated / new / fix) | |
 | 6 | Generate the briefing with checked citations | |
 | 7 | CLI over `libs.versions.toml` | |
@@ -32,8 +32,8 @@ _Last updated: 2026-11-26_
 - Section titles are free text, so "breaking" is not a label on the page. Step 5 (classification) exists for this reason.
 
 ## Step 2 progress
-- `eval/golden.jsonl` has q01–q30 (10 range, 15 api, 5 negative). Batches 1–2 accepted by Daniel; batch 3 (q21–q30) drafted, not yet reviewed.
-- Open question (q29): do back-merged copies ("From Navigation 2.8.8: ..." in a later alpha) count as relevant? Currently left out.
+- `eval/golden.jsonl` has q01–q30 (10 range, 15 api, 5 negative). All three batches accepted by Daniel.
+- q29: back-merged copies ("From Navigation 2.8.8: ..." in a later alpha) are NOT counted as relevant (default kept; Daniel didn't object).
 - Each line has a `notes` field explaining the labels.
 - **Labelling rules agreed with Daniel:**
   - An entry is relevant if it contains a line that answers the question.
@@ -57,6 +57,27 @@ Daniel should help pick or check the answers: labelling them is where most of th
 - GitHub remote: https://github.com/Ayodeji97/upgrade-briefing (`main` pushed).
 - `.env` exists locally (Groq key copied from the course `.env`). It is git-ignored.
 
-## Next
-1. Daniel reviews batch 3 (q21–q30) and the q29 "copies" question; then mark Step 2 ✅.
-2. Step 3: chunk each entry by section, embed with bge-base (vectors computed in Python), index in embedded Weaviate with `library`, `version_key`, `channel`, `section_title`, `entry_id` metadata.
+## What Step 3 produced
+- `ingest/chunk.py`: two chunkers. **section** = one chunk per release section, max 5 bullets, header line
+  `Room 2.7.0-alpha01 (alpha, 2024-05-01) — API Changes:`. **fixed** = 200-word windows, no header (baseline).
+  Boilerplate "X is released / contains these commits" Summary lines are dropped, so 33 no-change releases have no chunks
+  (none of them is a golden answer).
+- `embed.py`: bge-base, vectors computed in Python, normalised; `embed_query(prefix=True)` adds the bge query prefix.
+- `store.py`: embedded Weaviate 1.40.2 (`data/weaviate/`), collections `ReleaseNote` (section) and `ReleaseNoteFixed`.
+  Metadata: entry_id, library, version, version_key (INT), channel, date, section, url. Vectors are self-provided.
+- `ingest/index.py`: `uv run briefing-index` rebuilds both collections (~75 s on CPU).
+- `retrieve/dense.py`: `dense_search(client, query, k, chunker, prefix, library=, after_key=, upto_key=)`.
+- 6 section chunks and 2 fixed chunks are over bge's 512-token limit, so their tails are cut off when embedded. Small; revisit if a golden answer is affected.
+
+## Stage 2 experiment (first look, top 5, no filters)
+- "@MapInfo deprecated": correct entry at #1 — rare identifier with a clear meaning, dense does fine.
+- "breaking changes to database migrations": all top 5 are Room migration *bug fixes*. Dense finds the topic but has no idea of "breaking".
+- "Kotlin Multiplatform support": mixes Lifecycle, Paging and Room. Without a library filter, dense can't tell which library you mean.
+- q24 (paraphrase of launchWhenX deprecation): the answer is NOT in the top 5. Our prediction that semantic search
+  would bridge "pauses instead of cancelled" -> "pausing dispatcher" was wrong for bge-base. Step 4 will show whether BM25/hybrid/rerank fix it.
+- The bge query prefix changed little; Step 4 should measure it on the golden set instead of guessing.
+
+## Next: Step 4 (retrieval ablation)
+Write `evaluation/` metrics (Recall@5, MRR over entry_ids, deduplicating chunks to entries) and run on `eval/golden.jsonl`:
+BM25 -> dense -> hybrid -> + version/library filter -> + rerank (bge-reranker-base), plus section vs fixed chunker and prefix on/off.
+Negative questions (q20–q23 style, empty `relevant`) need a separate check (e.g. top score threshold), not Recall.

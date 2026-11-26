@@ -11,10 +11,13 @@ dependencies = [
     "beautifulsoup4>=4.15.0",
     "python-dotenv>=1.2.4",
     "requests>=2.34.2",
+    "sentence-transformers>=6.3.0",
+    "weaviate-client>=4.24.1",
 ]
 
 [project.scripts]
 briefing-scrape = "upgrade_briefing.ingest.scrape:main"
+briefing-index = "upgrade_briefing.ingest.index:main"
 
 [build-system]
 requires = ["uv_build>=0.13.6,<0.14.0"]
